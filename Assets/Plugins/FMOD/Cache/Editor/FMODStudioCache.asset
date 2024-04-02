@@ -1,0 +1,837 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8164311940620139677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_lurch_forward
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_lurch_forward
+  Guid:
+    Data1: -824284012
+    Data2: 1197817813
+    Data3: 2035113352
+    Data4: -1143168234
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7967633078030950671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui_dial_click
+  m_EditorClassIdentifier: 
+  Path: event:/ui_dial_click
+  Guid:
+    Data1: -1914814310
+    Data2: 1158487012
+    Data3: 925377693
+    Data4: -1443270858
+  Banks:
+  - {fileID: 1713141244621193444}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7819767756963450302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638471390160000000
+  FileSizes:
+  - Name: Desktop
+    Value: 699136
+  Exists: 1
+--- !u!114 &-7306503063344880152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_porch_haunted_streetlight_hum
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_porch_haunted_streetlight_hum
+  Guid:
+    Data1: -541202365
+    Data2: 1198968048
+    Data3: -986093411
+    Data4: -80793225
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4418
+--- !u!114 &-6531003057521691881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_porch_haunted_footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_porch_haunted_footsteps
+  Guid:
+    Data1: -1845550292
+    Data2: 1196530620
+    Data3: -136054105
+    Data4: -591469139
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5676456821510669920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_busstop_rain
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_busstop_rain
+  Guid:
+    Data1: 1677729967
+    Data2: 1078625912
+    Data3: -1662643806
+    Data4: 396128251
+  Banks:
+  - {fileID: -2461520923664920106}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6958597871310588194}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5642449331690525007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_door_open
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_door_open
+  Guid:
+    Data1: 2134193755
+    Data2: 1189929010
+    Data3: -103396454
+    Data4: -2028556564
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4942995546649540285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_dollydate1_car_int_rain/Rain Intensity
+  m_EditorClassIdentifier: 
+  Name: Rain Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1700908084
+    data2: 4249663698
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3913307164682566551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ui_dollydate1_porch_haunted_ui/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3448992610238694910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_busstop_forest
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_busstop_forest
+  Guid:
+    Data1: -1579969484
+    Data2: 1194781193
+    Data3: 1923190435
+    Data4: -1886244324
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2641877425000227947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_car_int_rain
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_car_int_rain
+  Guid:
+    Data1: 1690410018
+    Data2: 1218297523
+    Data3: -797105280
+    Data4: -1974637888
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4942995546649540285}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2461520923664920106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638471560940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 522592
+  Exists: 1
+--- !u!114 &-2335763817143720594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638471560940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2332
+  Exists: 1
+--- !u!114 &-577500959535340571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_porch_haunted_door
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_porch_haunted_door
+  Guid:
+    Data1: 1565813838
+    Data2: 1080982734
+    Data3: 583723184
+    Data4: -1817830143
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2335763817143720594}
+  - {fileID: 1864304151926065166}
+  - {fileID: -2461520923664920106}
+  - {fileID: 279078556994282238}
+  - {fileID: -7819767756963450302}
+  - {fileID: 1713141244621193444}
+  EditorEvents:
+  - {fileID: 4353729331783761369}
+  - {fileID: -2641877425000227947}
+  - {fileID: -3448992610238694910}
+  - {fileID: 4891560980934945257}
+  - {fileID: -7306503063344880152}
+  - {fileID: 2946537039170568941}
+  - {fileID: -5676456821510669920}
+  - {fileID: 5507409246227667646}
+  - {fileID: -6531003057521691881}
+  - {fileID: 1885843932587202221}
+  - {fileID: -577500959535340571}
+  - {fileID: 8919695666705268450}
+  - {fileID: -5642449331690525007}
+  - {fileID: 2685775885995896832}
+  - {fileID: 3086883952475828796}
+  - {fileID: -8164311940620139677}
+  - {fileID: 2082120310317641972}
+  - {fileID: 7416992932522079645}
+  - {fileID: 7516835466954592943}
+  - {fileID: -7967633078030950671}
+  - {fileID: 6030595576664601273}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2461520923664920106}
+  StringsBanks:
+  - {fileID: -2335763817143720594}
+  cacheTime: 638471560940000000
+  cacheVersion: 131616
+--- !u!114 &279078556994282238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638470482080000000
+  FileSizes:
+  - Name: Desktop
+    Value: 381376
+  Exists: 1
+--- !u!114 &431988026461842197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_dollydate1_busstop_car_idle/car nearness
+  m_EditorClassIdentifier: 
+  Name: car nearness
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1637029015
+    data2: 4021170480
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1713141244621193444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638471560940000000
+  FileSizes:
+  - Name: Desktop
+    Value: 9812896
+  Exists: 1
+--- !u!114 &1864304151926065166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambient.bank
+  m_EditorClassIdentifier: 
+  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Ambient.bank
+  Name: Ambient
+  StudioPath: bank:/Ambient
+  lastModified: 638471390160000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1085984
+  Exists: 1
+--- !u!114 &1885843932587202221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_car_int_door_shut
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_car_int_door_shut
+  Guid:
+    Data1: 998056495
+    Data2: 1243391303
+    Data3: 1567972791
+    Data4: 871808233
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2082120310317641972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_approaching
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_approaching
+  Guid:
+    Data1: -176380247
+    Data2: 1079146067
+    Data3: -1958253400
+    Data4: 1207558039
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2685775885995896832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car_int_streetlight_blink
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car_int_streetlight_blink
+  Guid:
+    Data1: -1524701069
+    Data2: 1246875027
+    Data3: 869687978
+    Data4: -1864707565
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &2946537039170568941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_busstop_car_idle
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_busstop_car_idle
+  Guid:
+    Data1: 967144871
+    Data2: 1185036360
+    Data3: 441474714
+    Data4: 1558956318
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 431988026461842197}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1674
+--- !u!114 &3086883952475828796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_car_driveway_entry
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_car_driveway_entry
+  Guid:
+    Data1: -372592756
+    Data2: 1109012105
+    Data3: -95841867
+    Data4: -969767705
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5500
+--- !u!114 &4353729331783761369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_int_car_hum
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_int_car_hum
+  Guid:
+    Data1: -811900905
+    Data2: 1177981696
+    Data3: -1625828681
+    Data4: 1424073516
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1674
+--- !u!114 &4891560980934945257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_dollydate1_porch_haunted_heartbeat
+  m_EditorClassIdentifier: 
+  Path: event:/amb_dollydate1_porch_haunted_heartbeat
+  Guid:
+    Data1: -1520185026
+    Data2: 1107594722
+    Data3: 786629819
+    Data4: 97599118
+  Banks:
+  - {fileID: 1864304151926065166}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3796
+--- !u!114 &5507409246227667646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car_int_window_taps
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car_int_window_taps
+  Guid:
+    Data1: -1010665449
+    Data2: 1292481456
+    Data3: 45387935
+    Data4: -2054488077
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7752
+--- !u!114 &6030595576664601273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_dollydate1_busstop
+  m_EditorClassIdentifier: 
+  Path: event:/mus_dollydate1_busstop
+  Guid:
+    Data1: 1075907928
+    Data2: 1248902124
+    Data3: -282117476
+    Data4: -1926161448
+  Banks:
+  - {fileID: 279078556994282238}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6958597871310588194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/amb_dollydate1_busstop_rain/Rain Intensity
+  m_EditorClassIdentifier: 
+  Name: Rain Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1700908084
+    data2: 4249663698
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7416992932522079645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_car_int_car_off
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_car_int_car_off
+  Guid:
+    Data1: -1048903442
+    Data2: 1335833385
+    Data3: -264826694
+    Data4: 1898963392
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1080
+--- !u!114 &7516835466954592943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui_dollydate1_porch_haunted_ui
+  m_EditorClassIdentifier: 
+  Path: event:/ui_dollydate1_porch_haunted_ui
+  Guid:
+    Data1: -1657792950
+    Data2: 1235098919
+    Data3: -1545232979
+    Data4: 203739379
+  Banks:
+  - {fileID: 1713141244621193444}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3913307164682566551}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8919695666705268450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_window_open
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dollydate1_car/sfx_dollydate1_busstop_car_window_open
+  Guid:
+    Data1: 365384273
+    Data2: 1135062044
+    Data3: -1666724732
+    Data4: 187989338
+  Banks:
+  - {fileID: -7819767756963450302}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
