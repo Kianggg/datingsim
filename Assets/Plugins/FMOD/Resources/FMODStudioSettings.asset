@@ -259,11 +259,6 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - ._Ambient
-  - ._Master
-  - ._Music
-  - ._SFX
-  - ._UI
   - Ambient
   - Music
   - SFX
