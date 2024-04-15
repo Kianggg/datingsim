@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{58b7d3f8-8e23-41d1-a477-bcb7a513ea92}">
+		<property name="assetPath">
+			<value>DatingSim_PrologueDemo_Audio_sfx_prologue_mondaybell_1.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0803125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16fcce0-05ff-4de6-96cf-46025d04e881}</destination>
+		</relationship>
+	</object>
+</objects>

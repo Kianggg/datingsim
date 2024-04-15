@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{db943e61-5eb4-4ef5-abf8-55c47ca25215}">
+		<property name="name">
+			<value>Haunted_UI_Dial</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84c80462-483a-4686-a85b-c2e30ec8d147}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e6932703-bd55-41df-87c8-478028011f84}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e6932703-bd55-41df-87c8-478028011f84}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

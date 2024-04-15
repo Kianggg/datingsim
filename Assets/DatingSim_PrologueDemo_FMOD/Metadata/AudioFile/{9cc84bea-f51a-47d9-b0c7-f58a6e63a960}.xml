@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9cc84bea-f51a-47d9-b0c7-f58a6e63a960}">
+		<property name="assetPath">
+			<value>dollydate_music_protoype_032624_Harp_4.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.5999999999999996</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16fcce0-05ff-4de6-96cf-46025d04e881}</destination>
+		</relationship>
+	</object>
+</objects>

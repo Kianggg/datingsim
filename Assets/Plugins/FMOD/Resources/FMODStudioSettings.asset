@@ -234,8 +234,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/DatingSim_Prototype4_FMOD.fspro
-  sourceBankPath: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build
+  sourceProjectPath: Assets/DatingSim_PrologueDemo_FMOD/DatingSim_PrologueDemo_FMOD.fspro
+  sourceBankPath: Assets/DatingSim_PrologueDemo_FMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

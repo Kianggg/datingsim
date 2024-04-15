@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e9a59219-6711-47b1-8117-d6d40cb09bb7}">
+		<property name="assetPath">
+			<value>datingsim_dial_On A Clear Day with vox.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>235.56</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16fcce0-05ff-4de6-96cf-46025d04e881}</destination>
+		</relationship>
+	</object>
+</objects>

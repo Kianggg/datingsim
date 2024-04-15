@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9187870420867193940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_scribble
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_scribble
+  Guid:
+    Data1: -1526585174
+    Data2: 1112022328
+    Data3: -1831407954
+    Data4: 1779155705
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8260100611846093817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_menu
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_menu
+  Guid:
+    Data1: 1748915690
+    Data2: 1195373799
+    Data3: -1249813616
+    Data4: -1492797743
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8164311940620139677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19,7 +73,34 @@ MonoBehaviour:
     Data3: 2035113352
     Data4: -1143168234
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8160471726415616494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_lift
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_lift
+  Guid:
+    Data1: -914665760
+    Data2: 1332304403
+    Data3: 1416840864
+    Data4: 453066266
+  Banks:
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -46,7 +127,7 @@ MonoBehaviour:
     Data3: 925377693
     Data4: -1443270858
   Banks:
-  - {fileID: 1713141244621193444}
+  - {fileID: -14547201017202257}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -54,7 +135,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-7819767756963450302
+--- !u!114 &-7722485872581167785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_door_open
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_door_open
+  Guid:
+    Data1: -759856751
+    Data2: 1175098483
+    Data3: 1554615713
+    Data4: 789942380
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7702430941728070718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,13 +174,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/SFX.bank
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/SFX.bank
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638471390160000000
+  lastModified: 638482714640000000
   FileSizes:
   - Name: Desktop
-    Value: 699136
+    Value: 1868096
   Exists: 1
 --- !u!114 &-7306503063344880152
 MonoBehaviour:
@@ -93,7 +201,7 @@ MonoBehaviour:
     Data3: -986093411
     Data4: -80793225
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -120,10 +228,37 @@ MonoBehaviour:
     Data3: -136054105
     Data4: -591469139
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5906157532133579638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_prologue_diner
+  m_EditorClassIdentifier: 
+  Path: event:/amb_prologue_diner
+  Guid:
+    Data1: -343815584
+    Data2: 1139034532
+    Data3: -827687768
+    Data4: -837445426
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -147,7 +282,7 @@ MonoBehaviour:
     Data3: -1662643806
     Data4: 396128251
   Banks:
-  - {fileID: -2461520923664920106}
+  - {fileID: -3017159786699918443}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -175,7 +310,85 @@ MonoBehaviour:
     Data3: -103396454
     Data4: -2028556564
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5343039272605255047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_prologue_home
+  m_EditorClassIdentifier: 
+  Path: event:/amb_prologue_home
+  Guid:
+    Data1: -599550399
+    Data2: 1197681013
+    Data3: 818110609
+    Data4: -10006020
+  Banks:
+  - {fileID: 2292716651718680964}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5132695501501437945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ui_haunted_dial/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5064995457294883232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_sip
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_sip
+  Guid:
+    Data1: -1905998362
+    Data2: 1153617133
+    Data3: -668727368
+    Data4: -150349120
+  Banks:
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -207,6 +420,139 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4752044317499467514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_broadcast_danceathon/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4751596524603585334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_prologue_trickery
+  m_EditorClassIdentifier: 
+  Path: event:/mus_prologue_trickery
+  Guid:
+    Data1: 1620369801
+    Data2: 1158028892
+    Data3: -133320041
+    Data4: -1310874390
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4629034954819135157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ui_haunted_dial
+  m_EditorClassIdentifier: 
+  Path: event:/ui_haunted_dial
+  Guid:
+    Data1: 783997671
+    Data2: 1225673237
+    Data3: 91464341
+    Data4: 1223733630
+  Banks:
+  - {fileID: -14547201017202257}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5132695501501437945}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4588364396460361516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_clunk
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_clunk
+  Guid:
+    Data1: 892623126
+    Data2: 1183458345
+    Data3: -2115112832
+    Data4: -1944142452
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4398218346609794086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_bump
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_bump
+  Guid:
+    Data1: 1277764991
+    Data2: 1132688267
+    Data3: -733525318
+    Data4: 977583777
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3913307164682566551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,6 +577,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-3864032729817790132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_prologue_home
+  m_EditorClassIdentifier: 
+  Path: event:/mus_prologue_home
+  Guid:
+    Data1: -691853120
+    Data2: 1272225475
+    Data3: -927309390
+    Data4: -522533456
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3448992610238694910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,7 +623,7 @@ MonoBehaviour:
     Data3: 1923190435
     Data4: -1886244324
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -258,6 +631,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3376094798296770406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_bus_leaving
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_bus_leaving
+  Guid:
+    Data1: 513151458
+    Data2: 1105448307
+    Data3: 272473485
+    Data4: 1990633305
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3017159786699918443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638482714620000000
+  FileSizes:
+  - Name: Desktop
+    Value: 522592
+  Exists: 1
 --- !u!114 &-2641877425000227947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,7 +697,7 @@ MonoBehaviour:
     Data3: -797105280
     Data4: -1974637888
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -286,7 +706,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2461520923664920106
+--- !u!114 &-1886569072998891209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -295,18 +715,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_prologue_arrival
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638471560940000000
-  FileSizes:
-  - Name: Desktop
-    Value: 522592
-  Exists: 1
---- !u!114 &-2335763817143720594
+  Path: event:/mus_prologue_arrival
+  Guid:
+    Data1: 980924944
+    Data2: 1140402681
+    Data3: -475915346
+    Data4: 1717327920
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1238520607484801057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -315,17 +742,51 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_mondaybell
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638471560940000000
-  FileSizes:
-  - Name: Desktop
-    Value: 2332
-  Exists: 1
+  Path: event:/sfx_prologue_mondaybell
+  Guid:
+    Data1: 1002052409
+    Data2: 1304408135
+    Data3: 1927182226
+    Data4: 238479493
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-640539940957089379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_papers
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_papers
+  Guid:
+    Data1: 1114395706
+    Data2: 1090670653
+    Data3: 409462954
+    Data4: 635250942
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-577500959535340571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +806,7 @@ MonoBehaviour:
     Data3: 583723184
     Data4: -1817830143
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -353,6 +814,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-14547201017202257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/UI.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/UI.bank
+  Name: UI
+  StudioPath: bank:/UI
+  lastModified: 638482714720000000
+  FileSizes:
+  - Name: Desktop
+    Value: 9828096
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,12 +847,12 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -2335763817143720594}
-  - {fileID: 1864304151926065166}
-  - {fileID: -2461520923664920106}
-  - {fileID: 279078556994282238}
-  - {fileID: -7819767756963450302}
-  - {fileID: 1713141244621193444}
+  - {fileID: 487377641171352986}
+  - {fileID: 2292716651718680964}
+  - {fileID: -3017159786699918443}
+  - {fileID: 6870413443579323611}
+  - {fileID: -7702430941728070718}
+  - {fileID: -14547201017202257}
   EditorEvents:
   - {fileID: 4353729331783761369}
   - {fileID: -2641877425000227947}
@@ -394,14 +875,47 @@ MonoBehaviour:
   - {fileID: 7516835466954592943}
   - {fileID: -7967633078030950671}
   - {fileID: 6030595576664601273}
+  - {fileID: 7310025359198528666}
+  - {fileID: -5343039272605255047}
+  - {fileID: 419119321740173342}
+  - {fileID: -1886569072998891209}
+  - {fileID: 8609831916038378402}
+  - {fileID: 2685534342403221595}
+  - {fileID: 8608294977066913017}
+  - {fileID: 4542357696344939259}
+  - {fileID: -4751596524603585334}
+  - {fileID: -3864032729817790132}
+  - {fileID: 2046900637845390133}
+  - {fileID: 80444607701756792}
+  - {fileID: -4588364396460361516}
+  - {fileID: 1465805797903381930}
+  - {fileID: 2860558356998109540}
+  - {fileID: -1238520607484801057}
+  - {fileID: -640539940957089379}
+  - {fileID: 1871637076154288648}
+  - {fileID: 420311100829586753}
+  - {fileID: -5906157532133579638}
+  - {fileID: 5982811600322627287}
+  - {fileID: 2465008262414079379}
+  - {fileID: -4398218346609794086}
+  - {fileID: -7722485872581167785}
+  - {fileID: -9187870420867193940}
+  - {fileID: 5666052793965084494}
+  - {fileID: 7241630486530469227}
+  - {fileID: 5163236816941624884}
+  - {fileID: -8160471726415616494}
+  - {fileID: -3376094798296770406}
+  - {fileID: -5064995457294883232}
+  - {fileID: -8260100611846093817}
+  - {fileID: -4629034954819135157}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2461520923664920106}
+  - {fileID: -3017159786699918443}
   StringsBanks:
-  - {fileID: -2335763817143720594}
-  cacheTime: 638471560940000000
+  - {fileID: 487377641171352986}
+  cacheTime: 638482714720000000
   cacheVersion: 131616
---- !u!114 &279078556994282238
+--- !u!114 &80444607701756792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -410,17 +924,79 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Music.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_broadcast_evacuation
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Music.bank
-  Name: Music
-  StudioPath: bank:/Music
-  lastModified: 638470482080000000
-  FileSizes:
-  - Name: Desktop
-    Value: 381376
-  Exists: 1
+  Path: event:/mus_broadcast_evacuation
+  Guid:
+    Data1: -1607636751
+    Data2: 1316955455
+    Data3: -382321792
+    Data4: -2016542643
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5980086799948274913}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 27904
+--- !u!114 &419119321740173342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_prologue_arrival
+  m_EditorClassIdentifier: 
+  Path: event:/amb_prologue_arrival
+  Guid:
+    Data1: -1373089411
+    Data2: 1224274197
+    Data3: 807319461
+    Data4: -208917205
+  Banks:
+  - {fileID: 2292716651718680964}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &420311100829586753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_end_chime
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_end_chime
+  Guid:
+    Data1: 771610438
+    Data2: 1124185137
+    Data3: 464911002
+    Data4: -615130290
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &431988026461842197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +1021,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &1713141244621193444
+--- !u!114 &487377641171352986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -455,17 +1031,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/UI.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/UI.bank
-  Name: UI
-  StudioPath: bank:/UI
-  lastModified: 638471560940000000
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638482714620000000
   FileSizes:
   - Name: Desktop
-    Value: 9812896
+    Value: 3780
   Exists: 1
---- !u!114 &1864304151926065166
+--- !u!114 &1465805797903381930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -474,17 +1050,75 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Ambient.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_realization
   m_EditorClassIdentifier: 
-  Path: ../Desktop/Game Center/DatingSim_Prototype4_FMOD/Build/Desktop/Ambient.bank
-  Name: Ambient
-  StudioPath: bank:/Ambient
-  lastModified: 638471390160000000
-  FileSizes:
-  - Name: Desktop
-    Value: 1085984
+  Path: event:/sfx_prologue_realization
+  Guid:
+    Data1: 1847057179
+    Data2: 1306853323
+    Data3: 549668521
+    Data4: 286149669
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1492906548550062708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_broadcast_advertisement/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
+--- !u!114 &1871637076154288648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_set_down
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_set_down
+  Guid:
+    Data1: -288570557
+    Data2: 1207291450
+    Data3: -91124805
+    Data4: 440958019
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1885843932587202221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +1138,7 @@ MonoBehaviour:
     Data3: 1567972791
     Data4: 871808233
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -512,6 +1146,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2046900637845390133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_broadcast_intro
+  m_EditorClassIdentifier: 
+  Path: event:/mus_broadcast_intro
+  Guid:
+    Data1: -1054980111
+    Data2: 1257206642
+    Data3: -1574312568
+    Data4: -796777943
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2917684915661528424}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30805
 --- !u!114 &2082120310317641972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +1193,7 @@ MonoBehaviour:
     Data3: -1958253400
     Data4: 1207558039
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -539,6 +1201,81 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2292716651718680964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambient.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Ambient.bank
+  Name: Ambient
+  StudioPath: bank:/Ambient
+  lastModified: 638482714620000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1574048
+  Exists: 1
+--- !u!114 &2465008262414079379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_notebook
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_notebook
+  Guid:
+    Data1: 165404782
+    Data2: 1142795797
+    Data3: -2092779380
+    Data4: -806400228
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2685534342403221595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_broadcast_advertisement
+  m_EditorClassIdentifier: 
+  Path: event:/mus_broadcast_advertisement
+  Guid:
+    Data1: -65733063
+    Data2: 1125999506
+    Data3: 77931663
+    Data4: -1698645411
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1492906548550062708}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17000
 --- !u!114 &2685775885995896832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,7 +1295,7 @@ MonoBehaviour:
     Data3: 869687978
     Data4: -1864707565
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -566,6 +1303,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
+--- !u!114 &2860558356998109540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_gameover
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_gameover
+  Guid:
+    Data1: -1894995936
+    Data2: 1227643801
+    Data3: 686935213
+    Data4: 1452812501
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2917684915661528424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_broadcast_intro/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2946537039170568941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -585,7 +1373,7 @@ MonoBehaviour:
     Data3: 441474714
     Data4: 1558956318
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -613,7 +1401,7 @@ MonoBehaviour:
     Data3: -95841867
     Data4: -969767705
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -640,7 +1428,7 @@ MonoBehaviour:
     Data3: -1625828681
     Data4: 1424073516
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -648,6 +1436,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1674
+--- !u!114 &4542357696344939259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_broadcast_danceathon
+  m_EditorClassIdentifier: 
+  Path: event:/mus_broadcast_danceathon
+  Guid:
+    Data1: 925244796
+    Data2: 1177540888
+    Data3: 586373254
+    Data4: -1021514143
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -4752044317499467514}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11034
 --- !u!114 &4891560980934945257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +1483,7 @@ MonoBehaviour:
     Data3: 786629819
     Data4: 97599118
   Banks:
-  - {fileID: 1864304151926065166}
+  - {fileID: 2292716651718680964}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -675,6 +1491,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 3796
+--- !u!114 &5163236816941624884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_paperflip
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_paperflip
+  Guid:
+    Data1: 1955497946
+    Data2: 1325381033
+    Data3: 328864416
+    Data4: -1746093310
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &5507409246227667646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,7 +1537,7 @@ MonoBehaviour:
     Data3: 45387935
     Data4: -2054488077
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -702,6 +1545,84 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7752
+--- !u!114 &5666052793965084494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_whistle_echo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_whistle_echo
+  Guid:
+    Data1: 464867498
+    Data2: 1166296860
+    Data3: -1551022177
+    Data4: -482028726
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5980086799948274913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_broadcast_evacuation/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5982811600322627287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_thbell
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_thbell
+  Guid:
+    Data1: 421131629
+    Data2: 1106149290
+    Data3: 1036802713
+    Data4: -401540417
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &6030595576664601273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,14 +1642,34 @@ MonoBehaviour:
     Data3: -282117476
     Data4: -1926161448
   Banks:
-  - {fileID: 279078556994282238}
-  IsStream: 0
+  - {fileID: 6870413443579323611}
+  IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &6870413443579323611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638482714640000000
+  FileSizes:
+  - Name: Desktop
+    Value: 1315680
+  Exists: 1
 --- !u!114 &6958597871310588194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,6 +1694,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &7241630486530469227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_prologue_whistle
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_prologue_whistle
+  Guid:
+    Data1: -355959604
+    Data2: 1142651670
+    Data3: 1160437923
+    Data4: -109870155
+  Banks:
+  - {fileID: -7702430941728070718}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7310025359198528666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb_prologue_townsquare
+  m_EditorClassIdentifier: 
+  Path: event:/amb_prologue_townsquare
+  Guid:
+    Data1: 1760811776
+    Data2: 1273330724
+    Data3: 125581711
+    Data4: -986640310
+  Banks:
+  - {fileID: 2292716651718680964}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7416992932522079645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,7 +1767,7 @@ MonoBehaviour:
     Data3: -264826694
     Data4: 1898963392
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -799,12 +1794,66 @@ MonoBehaviour:
     Data3: -1545232979
     Data4: 203739379
   Banks:
-  - {fileID: 1713141244621193444}
+  - {fileID: -14547201017202257}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: -3913307164682566551}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8608294977066913017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_prologue_puppet
+  m_EditorClassIdentifier: 
+  Path: event:/mus_prologue_puppet
+  Guid:
+    Data1: -183833749
+    Data2: 1154931310
+    Data3: 1591115147
+    Data4: 795274304
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8609831916038378402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_prologue_jukebox
+  m_EditorClassIdentifier: 
+  Path: event:/mus_prologue_jukebox
+  Guid:
+    Data1: -1677682927
+    Data2: 1261747190
+    Data3: 1570261648
+    Data4: -152263954
+  Banks:
+  - {fileID: 6870413443579323611}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -827,7 +1876,7 @@ MonoBehaviour:
     Data3: -1666724732
     Data4: 187989338
   Banks:
-  - {fileID: -7819767756963450302}
+  - {fileID: -7702430941728070718}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

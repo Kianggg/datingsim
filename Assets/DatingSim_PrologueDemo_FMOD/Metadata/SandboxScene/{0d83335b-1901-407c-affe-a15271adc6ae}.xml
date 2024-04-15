@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SandboxScene" id="{0d83335b-1901-407c-affe-a15271adc6ae}">
+		<property name="name">
+			<value>Porch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{7cc70311-0cb5-4d07-aa4f-33f6f1cd5a08}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{5d12127f-30f8-4d4b-adb8-0e36affcc8fc}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{fecd3b97-9d9b-450f-b326-2906ba6f46de}</destination>
+		</relationship>
+		<relationship name="emitters">
+			<destination>{12b1c840-d9d9-47e3-bbd6-1a270fde737e}</destination>
+		</relationship>
+	</object>
+	<object class="MarkerTrack" id="{5d12127f-30f8-4d4b-adb8-0e36affcc8fc}" />
+	<object class="Timeline" id="{fecd3b97-9d9b-450f-b326-2906ba6f46de}" />
+	<object class="SandboxEmitter" id="{12b1c840-d9d9-47e3-bbd6-1a270fde737e}">
+		<property name="positionX">
+			<value>6.20000029</value>
+		</property>
+		<property name="positionZ">
+			<value>2</value>
+		</property>
+		<relationship name="event">
+			<destination>{ae28517d-f115-48f8-a5b7-1e302b2d8cf3}</destination>
+		</relationship>
+	</object>
+</objects>

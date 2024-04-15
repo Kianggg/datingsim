@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{8342fa07-34ee-4968-9346-0ee25e27e7f9}">
+		<property name="name">
+			<value>car nearness</value>
+		</property>
+		<relationship name="folder">
+			<destination>{84c80462-483a-4686-a85b-c2e30ec8d147}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7cf77f51-8c9e-40c0-b1bd-adf085a71726}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7cf77f51-8c9e-40c0-b1bd-adf085a71726}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.37999999523162842</value>
+		</property>
+	</object>
+</objects>

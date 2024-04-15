@@ -4,12 +4,6 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-// FMOD Integration
-// using FMOD;
-// using FMODUnity;
-// using FMOD.Studio;
-
-
 namespace Fungus
 {
     /// <summary>

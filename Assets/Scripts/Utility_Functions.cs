@@ -10,34 +10,36 @@ public class Utility_Functions : MonoBehaviour
     public Flowchart flowchart;
     public GameObject Backgrounds;
 
-    public EventInstance rainInst;
-    public EventInstance carInst;
-    public EventInstance dialInst;
-    
-    public EventReference rainEventRef;
-    public EventReference carEventRef;
-    public EventReference dialEventRef;
+    public EventInstance broadcastAdInst;
+    public EventInstance broadcastEvacInst;
+    public EventInstance broadcastIntroInst;
+    public EventInstance broadcastDanceInst;
+
+    public EventReference broadcastAdRef;
+    public EventReference broadcastEvacRef;
+    public EventReference broadcastIntroRef;
+    public EventReference broadcastDanceRef;
 
     private void Start()
     {
 
-        rainInst = FMODUnity.RuntimeManager.CreateInstance(rainEventRef);
-        carInst = FMODUnity.RuntimeManager.CreateInstance(carEventRef);
-        dialInst = FMODUnity.RuntimeManager.CreateInstance(dialEventRef);
+        broadcastAdInst = FMODUnity.RuntimeManager.CreateInstance(broadcastAdRef);
+        broadcastEvacInst = FMODUnity.RuntimeManager.CreateInstance(broadcastEvacRef);
+        broadcastIntroInst = FMODUnity.RuntimeManager.CreateInstance(broadcastIntroRef);
+        broadcastDanceInst = FMODUnity.RuntimeManager.CreateInstance(broadcastDanceRef);
 
     }
 
     private void Update()
     {
         // Get parameters
-        float rain = flowchart.GetFloatVariable("Rain_Intensity");
-        float car = flowchart.GetFloatVariable("Car_Nearness");
         float dial = flowchart.GetFloatVariable("Haunted_UI_Dial");
 
         // Set parameters
-        rainInst.setParameterByName("Rain Intensity", rain);
-        carInst.setParameterByName("car nearness", car);
-        dialInst.setParameterByName("Haunted_UI_Dial", dial);
+        broadcastAdInst.setParameterByName("Haunted_UI_Dial", dial);
+        broadcastEvacInst.setParameterByName("Haunted_UI_Dial", dial);
+        broadcastIntroInst.setParameterByName("Haunted_UI_Dial", dial);
+        broadcastDanceInst.setParameterByName("Haunted_UI_Dial", dial);
     }
 
     public void StopAllAudio()
@@ -74,14 +76,17 @@ public class Utility_Functions : MonoBehaviour
     {
         switch (ambToPlay)
         {
-            case "rain":
-                rainInst.start();
+            case "ad":
+                broadcastAdInst.start();
                 break;
-            case "car":
-                carInst.start();
+            case "evac":
+                broadcastEvacInst.start();
                 break;
-            case "dial":
-                dialInst.start();
+            case "intro":
+                broadcastIntroInst.start();
+                break;
+            case "dance":
+                broadcastDanceInst.start();
                 break;
             default:
                 Debug.Log("Ambience string " + ambToPlay + " not found.");
@@ -93,14 +98,17 @@ public class Utility_Functions : MonoBehaviour
     {
         switch (ambToStop)
         {
-            case "rain":
-                rainInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            case "ad":
+                broadcastAdInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
-            case "car":
-                carInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            case "evac":
+                broadcastEvacInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
-            case "dial":
-                dialInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            case "intro":
+                broadcastIntroInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+            case "dance":
+                broadcastDanceInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
             default:
                 Debug.Log("Ambience string " + ambToStop + " not found.");
