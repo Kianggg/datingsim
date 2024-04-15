@@ -177,7 +177,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638487993241574174
+  lastModified: 638488019365368455
   FileSizes:
   - Name: Desktop
     Value: 1868096
@@ -236,26 +236,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-6392129270822740531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/._Music.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/._Music.bank
-  Name: ._Music
-  StudioPath: 
-  lastModified: 638487993241241715
-  FileSizes:
-  - Name: Desktop
-    Value: 4096
-  Exists: 1
 --- !u!114 &-5906157532133579638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,26 +396,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5022080898555433767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/._Ambient.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/._Ambient.bank
-  Name: ._Ambient
-  StudioPath: 
-  lastModified: 638487993241221742
-  FileSizes:
-  - Name: Desktop
-    Value: 4096
-  Exists: 1
 --- !u!114 &-4942995546649540285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,30 +673,10 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638487993241394191
+  lastModified: 638488019364234204
   FileSizes:
   - Name: Desktop
     Value: 522592
-  Exists: 1
---- !u!114 &-2802706465176756382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/._SFX.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/._SFX.bank
-  Name: ._SFX
-  StudioPath: 
-  lastModified: 638487993241251709
-  FileSizes:
-  - Name: Desktop
-    Value: 4096
   Exists: 1
 --- !u!114 &-2641877425000227947
 MonoBehaviour:
@@ -889,7 +829,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638487993241884549
+  lastModified: 638488019366666323
   FileSizes:
   - Name: Desktop
     Value: 9828096
@@ -913,11 +853,6 @@ MonoBehaviour:
   - {fileID: 6870413443579323611}
   - {fileID: -7702430941728070718}
   - {fileID: -14547201017202257}
-  - {fileID: -5022080898555433767}
-  - {fileID: 5617576320675694504}
-  - {fileID: -6392129270822740531}
-  - {fileID: -2802706465176756382}
-  - {fileID: 7461616195358520650}
   EditorEvents:
   - {fileID: 4353729331783761369}
   - {fileID: -2641877425000227947}
@@ -978,7 +913,7 @@ MonoBehaviour:
   - {fileID: -3017159786699918443}
   StringsBanks:
   - {fileID: 487377641171352986}
-  cacheTime: 638487993241884549
+  cacheTime: 638488019366666323
   cacheVersion: 131616
 --- !u!114 &80444607701756792
 MonoBehaviour:
@@ -1101,7 +1036,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638487993241404185
+  lastModified: 638488019364511990
   FileSizes:
   - Name: Desktop
     Value: 3780
@@ -1281,7 +1216,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638487993241341711
+  lastModified: 638488019363896609
   FileSizes:
   - Name: Desktop
     Value: 1574048
@@ -1610,26 +1545,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7752
---- !u!114 &5617576320675694504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/._Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/._Master.bank
-  Name: ._Master
-  StudioPath: 
-  lastModified: 638487993241231714
-  FileSizes:
-  - Name: Desktop
-    Value: 4096
-  Exists: 1
 --- !u!114 &5666052793965084494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1665,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638487993241454164
+  lastModified: 638488019364912876
   FileSizes:
   - Name: Desktop
     Value: 1315680
@@ -1860,26 +1775,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1080
---- !u!114 &7461616195358520650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/._UI.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/._UI.bank
-  Name: ._UI
-  StudioPath: 
-  lastModified: 638487993241251709
-  FileSizes:
-  - Name: Desktop
-    Value: 4096
-  Exists: 1
 --- !u!114 &7516835466954592943
 MonoBehaviour:
   m_ObjectHideFlags: 0
