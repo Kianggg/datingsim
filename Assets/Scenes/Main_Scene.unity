@@ -3347,142 +3347,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930222159}
   m_CullTransparentMesh: 1
---- !u!1 &943269544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 943269545}
-  - component: {fileID: 943269547}
-  - component: {fileID: 943269546}
-  m_Layer: 5
-  m_Name: NameText
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &943269545
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943269544}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 997589391}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1020.8, y: -822.2}
-  m_SizeDelta: {x: 1106, y: 71}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &943269546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943269544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Dolly
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8b0591af8a5b9411f9e2a1599793469c, type: 2}
-  m_sharedMaterial: {fileID: 5853556926794121274, guid: 8b0591af8a5b9411f9e2a1599793469c, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190335
-  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 82
-  m_fontSizeBase: 82
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &943269547
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 943269544}
-  m_CullTransparentMesh: 1
 --- !u!1 &946417114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,7 +4022,6 @@ GameObject:
   - component: {fileID: 991451156}
   - component: {fileID: 991451155}
   - component: {fileID: 991451154}
-  - component: {fileID: 991451159}
   - component: {fileID: 991451158}
   - component: {fileID: 991451157}
   - component: {fileID: 991451169}
@@ -4235,7 +4098,6 @@ GameObject:
   - component: {fileID: 991451233}
   - component: {fileID: 991451232}
   - component: {fileID: 991451231}
-  - component: {fileID: 991451252}
   - component: {fileID: 991451251}
   - component: {fileID: 991451250}
   - component: {fileID: 991451249}
@@ -4530,6 +4392,43 @@ GameObject:
   - component: {fileID: 991451553}
   - component: {fileID: 991451554}
   - component: {fileID: 991451555}
+  - component: {fileID: 991451556}
+  - component: {fileID: 991451557}
+  - component: {fileID: 991451558}
+  - component: {fileID: 991451560}
+  - component: {fileID: 991451559}
+  - component: {fileID: 991451562}
+  - component: {fileID: 991451561}
+  - component: {fileID: 991451563}
+  - component: {fileID: 991451564}
+  - component: {fileID: 991451565}
+  - component: {fileID: 991451566}
+  - component: {fileID: 991451567}
+  - component: {fileID: 991451568}
+  - component: {fileID: 991451569}
+  - component: {fileID: 991451570}
+  - component: {fileID: 991451571}
+  - component: {fileID: 991451572}
+  - component: {fileID: 991451573}
+  - component: {fileID: 991451574}
+  - component: {fileID: 991451575}
+  - component: {fileID: 991451576}
+  - component: {fileID: 991451577}
+  - component: {fileID: 991451578}
+  - component: {fileID: 991451579}
+  - component: {fileID: 991451580}
+  - component: {fileID: 991451581}
+  - component: {fileID: 991451582}
+  - component: {fileID: 991451583}
+  - component: {fileID: 991451584}
+  - component: {fileID: 991451585}
+  - component: {fileID: 991451586}
+  - component: {fileID: 991451587}
+  - component: {fileID: 991451588}
+  - component: {fileID: 991451589}
+  - component: {fileID: 991451590}
+  - component: {fileID: 991451591}
+  - component: {fileID: 991451592}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4593,11 +4492,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 518.2234, y: 292.52875}
+  scrollPos: {x: -805.5536, y: -647.4357}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 403
-  zoom: 0.29925033
+  blockViewHeight: 200
+  zoom: 0.5557507
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4605,9 +4504,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451118}
+  - {fileID: 991451338}
   selectedCommands:
-  - {fileID: 991451555}
+  - {fileID: 991451341}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -6982,7 +6881,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 991451494}
   - {fileID: 991450753}
-  - {fileID: 991451159}
+  - {fileID: 991451560}
+  - {fileID: 991451559}
   - {fileID: 991451158}
   - {fileID: 991451157}
   - {fileID: 991450771}
@@ -7028,9 +6928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 98
   indentLevel: 0
-  storyText: Dolly hands you a laminated menu. You look over the drinks. Despite
-    wanting your usual, it might be nice to try something new. A new experience on
-    top of all of the other new experiences.
+  storyText: 'Dolly hands you a laminated menu. You look over the drinks. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -7126,7 +7024,7 @@ MonoBehaviour:
   - {fileID: 991451498}
   - {fileID: 991451250}
   - {fileID: 991450807}
-  - {fileID: 991451252}
+  - {fileID: 991451564}
   - {fileID: 991451251}
   - {fileID: 991450757}
   - {fileID: 991450808}
@@ -7223,7 +7121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: How's the coffee?
+  storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
   portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
@@ -7353,7 +7251,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1956.7191
-    y: 208.14362
+    y: 209.34319
     width: 78.68
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7365,6 +7263,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 991450783}
   - {fileID: 991451234}
+  - {fileID: 991451591}
   - {fileID: 991450781}
   - {fileID: 991450782}
   - {fileID: 991451495}
@@ -7401,6 +7300,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 991450794}
+  - {fileID: 991451562}
+  - {fileID: 991451561}
   - {fileID: 991450793}
   - {fileID: 991451224}
   - {fileID: 991451496}
@@ -7465,7 +7366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 133
   indentLevel: 0
-  storyText: How's the drink?
+  storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
   portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
@@ -7547,7 +7448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 131
   indentLevel: 0
-  storyText: Strawberry? Pineapple? The smell seems to change overtime.
+  storyText: Strawberry? Pineapple? The smell seems to change over time.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -7574,7 +7475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 130
   indentLevel: 0
-  storyText: You take a sip.
+  storyText: She brings a glass of reddish-pink liquid to you, and you take a sip.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -7601,7 +7502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  storyText: Tea does sound good so you pick one of the specialities. Dolly nods.
+  storyText: Tea sounds good, so you pick one of the specialities.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -7628,7 +7529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 146
   indentLevel: 0
-  storyText: How's the coffee?
+  storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
   portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
@@ -7655,7 +7556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: "You weren\u2019t expecting the taste but you like it. The drink had
+  storyText: "You weren\u2019t expecting the taste but you like it. The drink has
     a bit of a kick."
   description: 
   character: {fileID: 1780337989}
@@ -7794,9 +7695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  storyText: 'The silly name catches your eye immediately. Dolly nods. She takes
-    the menu and goes behind the counter to make it for you. The smell of vanilla
-    wafts through the air as she works. '
+  storyText: 'The silly name catches your eye immediately. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -7851,8 +7750,7 @@ MonoBehaviour:
   itemId: 162
   indentLevel: 0
   storyText: "You look down at your watch. The movers should be here soon. You\u2019ve
-    got just enough time to get into town and get there before they arrive. You leave
-    the money and a nice tip on the table."
+    got just enough time to get into town and get there before they arrive. "
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -15470,7 +15368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1378.6384
+    x: 1377.4022
     y: 7.144902
     width: 124.2
     height: 40
@@ -15495,6 +15393,8 @@ MonoBehaviour:
   - {fileID: 991451476}
   - {fileID: 991451108}
   - {fileID: 991451107}
+  - {fileID: 991451556}
+  - {fileID: 991451557}
   - {fileID: 991451106}
   - {fileID: 991451105}
   - {fileID: 991451104}
@@ -16883,6 +16783,7 @@ MonoBehaviour:
   - {fileID: 991451156}
   - {fileID: 991451155}
   - {fileID: 991451154}
+  - {fileID: 991451558}
   - {fileID: 991451135}
   - {fileID: 991451134}
   - {fileID: 991451133}
@@ -17347,8 +17248,7 @@ MonoBehaviour:
   itemId: 517
   indentLevel: 0
   storyText: 'Her eyes scan the diner before they land on you. She goes back inside
-    the diner and comes back with a small notepad. The fluorescent lights catch her
-    name tag: Dolly. The name fits her stoic features.'
+    the diner and comes back with a small notepad. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -17457,36 +17357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 521
   indentLevel: 0
-  storyText: "The menu isn\u2019t very large but the signature drinks to catch your
+  storyText: "The menu isn\u2019t very large but the signature drinks catch your
     eye. "
-  description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &991451159
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991450659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 520
-  indentLevel: 0
-  storyText: You look over the drinks. Despite wanting your usual, it might be nice
-    to try something new. A new experience on top of all of the other new experiences.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -17769,9 +17641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 535
   indentLevel: 0
-  storyText: You look out the window. This close to the outskirts of town, you can
-    barely make out the town itself over the treeline. The forest seems so dense
-    and all-consuming.
+  storyText: 'You look out the window. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -17811,15 +17681,22 @@ MonoBehaviour:
   commandList:
   - {fileID: 991451172}
   - {fileID: 991451170}
+  - {fileID: 991451580}
+  - {fileID: 991451585}
   - {fileID: 991451189}
+  - {fileID: 991451581}
   - {fileID: 991451188}
   - {fileID: 991451187}
   - {fileID: 991451190}
+  - {fileID: 991451582}
+  - {fileID: 991451583}
   - {fileID: 991451186}
   - {fileID: 991451184}
+  - {fileID: 991451584}
   - {fileID: 991451185}
   - {fileID: 991451182}
   - {fileID: 991451181}
+  - {fileID: 991451586}
   - {fileID: 991451183}
   - {fileID: 991451191}
   - {fileID: 991451246}
@@ -17866,7 +17743,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1631.2775
-    y: 287.2652
+    y: 288.40332
     width: 126.26
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -17880,12 +17757,14 @@ MonoBehaviour:
   - {fileID: 991451200}
   - {fileID: 991451199}
   - {fileID: 991451216}
+  - {fileID: 991451588}
   - {fileID: 991451197}
   - {fileID: 991451196}
   - {fileID: 991451198}
   - {fileID: 991451217}
   - {fileID: 991451215}
   - {fileID: 991451214}
+  - {fileID: 991451589}
   - {fileID: 991451213}
   - {fileID: 991451212}
   - {fileID: 991451211}
@@ -17927,6 +17806,7 @@ MonoBehaviour:
   - {fileID: 991451176}
   - {fileID: 991451194}
   - {fileID: 991451193}
+  - {fileID: 991451587}
   - {fileID: 991451204}
   - {fileID: 991451203}
   - {fileID: 991451202}
@@ -17949,8 +17829,8 @@ MonoBehaviour:
   storyText: "I\u2019m sure you\u2019ll find all the answer you need in time. Craven
     is a small place."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17974,7 +17854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 549
   indentLevel: 0
-  storyText: "You paused. You don\u2019t remember mentioning any movers. "
+  storyText: "You pause. You don\u2019t remember mentioning any movers. "
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -18032,7 +17912,7 @@ MonoBehaviour:
     for you. Don\u2019t know how accurate it\u2019d be but I\u2019d give it a whirl."
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18085,7 +17965,7 @@ MonoBehaviour:
   itemId: 547
   indentLevel: 0
   storyText: 'You raise your mug and the two of you drink in companioned silence
-    until you finally have to go. You leave the money and a nice tip on the table. '
+    until you finally have to go. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -18115,7 +17995,7 @@ MonoBehaviour:
   storyText: Either way, welcome to Craven.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18166,12 +18046,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 543
   indentLevel: 0
-  storyText: "Most people don\u2019t come to Craven, they end up here. The town has
-    a way of pulling people in. I think it\u2019s the ice cream parlor. The mint
-    chocolate chip ice cream is to die for."
+  storyText: "Most people don\u2019t come to Craven so much as they end up here.
+    The town has a way of pulling people in. "
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18252,7 +18131,7 @@ MonoBehaviour:
   storyText: "So, why\u2019d you move to Craven?"
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18305,11 +18184,10 @@ MonoBehaviour:
   itemId: 538
   indentLevel: 0
   storyText: "It\u2019s a nice place. The people here are a little quiet but a new
-    person in town is bound to shake things up a bit. We need a little excitement
-    around here."
+    person in town is bound to shake things up a bit. "
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18333,9 +18211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 537
   indentLevel: 0
-  storyText: "You don\u2019t exactly know what to say. You\u2019d been tired of the
-    city life mostly. Something drew you to a small quiet life in the sticks. With
-    no other idea of what to say, you shrug."
+  storyText: "You don\u2019t exactly know what to say. "
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -18365,7 +18241,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18392,8 +18268,8 @@ MonoBehaviour:
   storyText: "Not much going on here to begin with. I\u2019d finish your coffee soon
     if I were you. The movers will probably be at your house by now."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18417,8 +18293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 557
   indentLevel: 0
-  storyText: "You look at your watch again. She\u2019s right. The movers should be
-    there any minute now if they\u2019re not there already."
+  storyText: 'You look at your watch again. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -18902,7 +18777,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 5063e04e42397431596db32a0a3129c4, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18980,8 +18855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 573
   indentLevel: 0
-  storyText: "You quickly tell Dolly the time and she nods, almost uninterested despite
-    being the one who asked. Maybe she\u2019s waiting for her shift to end?"
+  storyText: 'You quickly tell Dolly the time and she nods, almost uninterested despite
+    being the one who asked. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19008,8 +18883,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 572
   indentLevel: 0
-  storyText: "You\u2019d been in the diner a little too long. You should probably
-    get going. The movers were probably at your house right now."
+  storyText: "You\u2019ve been in the diner a little too long. You should probably
+    get going; the movers are probably already at your house."
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19037,7 +18912,7 @@ MonoBehaviour:
   itemId: 568
   indentLevel: 0
   storyText: "But it\u2019s a nice place to relax to get away from the nosy neighbors
-    in town. Music\u2019s good too. I picked it myself."
+    in town."
   description: 
   character: {fileID: 1508007126}
   portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
@@ -19317,6 +19192,7 @@ MonoBehaviour:
   - {fileID: 991451229}
   - {fileID: 991451228}
   - {fileID: 991451227}
+  - {fileID: 991451563}
   suppressAllAutoSelections: 0
 --- !u!114 &991451227
 MonoBehaviour:
@@ -19353,8 +19229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 594
   indentLevel: 0
-  storyText: Seeing you happy with your drink, Dolly goes back behind the counter
-    to clean up the equipment. A companioned silence falls over the two of you.
+  storyText: 'Seeing you happy with your drink, Dolly goes back behind the counter
+    to clean up the equipment. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19422,6 +19298,7 @@ MonoBehaviour:
   - {fileID: 991451233}
   - {fileID: 991451232}
   - {fileID: 991451231}
+  - {fileID: 991451590}
   suppressAllAutoSelections: 0
 --- !u!114 &991451231
 MonoBehaviour:
@@ -19458,8 +19335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 598
   indentLevel: 0
-  storyText: Seeing you happy with your drink, Dolly goes back behind the counter
-    to clean up the equipment. A companioned silence falls over the two of you.
+  storyText: 'Seeing you happy with your drink, Dolly goes back behind the counter
+    to clean up the equipment. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19486,8 +19363,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 597
   indentLevel: 0
-  storyText: "The drink is good. You hadn\u2019t known what to expect but this was
-    good. Maybe next time you\u2019ll try something else on the menu."
+  storyText: "The drink is good. You hadn\u2019t known what to expect, but are pleasantly
+    surprised. Maybe next time you\u2019ll try something else on the menu."
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19514,9 +19391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 591
   indentLevel: 0
-  storyText: "She takes the menu and goes behind the counter to make it for you.
-    The smell of fruit wafts through the air as she works but you can\u2019t place
-    which fruit it is."
+  storyText: 'Dolly nods, takes the menu, and goes behind the counter to make it
+    for you. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -19721,6 +19597,7 @@ MonoBehaviour:
   - {fileID: 991451501}
   - {fileID: 991451239}
   - {fileID: 991451237}
+  - {fileID: 991451565}
   - {fileID: 991451253}
   - {fileID: 991451255}
   - {fileID: 991451254}
@@ -19735,6 +19612,7 @@ MonoBehaviour:
   - {fileID: 991451260}
   - {fileID: 991451259}
   - {fileID: 991451258}
+  - {fileID: 991451566}
   - {fileID: 991451265}
   - {fileID: 991451277}
   - {fileID: 991451276}
@@ -19753,9 +19631,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 608
   indentLevel: 0
-  storyText: Somehow instead of finding your way to the residential area, you find
-    yourself in the middle of town square instead. You should have probably asked
-    Dolly for directions.
+  storyText: 'Somehow instead of finding your way to the residential area, you find
+    yourself in the middle of town square instead. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -20032,35 +19909,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &991451252
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991450659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 600
-  indentLevel: 0
-  storyText: "You look down at your watch. The movers should be here soon. You\u2019ve
-    got just enough time to get into town and get there before they arrive. You leave
-    the money and a nice tip on the table."
-  description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &991451253
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -20075,8 +19923,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 619
   indentLevel: 0
-  storyText: You look around. A gazebo in the center of the town with people milling
-    around.
+  storyText: You look around. There's an old-looking but pretty gazebo in the center
+    of the town.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -20215,8 +20063,7 @@ MonoBehaviour:
   itemId: 631
   indentLevel: 0
   storyText: "Of course this is how I\u2019d meet you. Nearly bulldozing you over
-    in the middle of town. I\u2019m Wolfgang, by the way. I promise I usually watch
-    where I\u2019m walking."
+    in the middle of town."
   description: 
   character: {fileID: 1825282074}
   portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
@@ -20298,7 +20145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 628
   indentLevel: 0
-  storyText: Dusting yourselves off, the man looks at you.
+  storyText: You dust yourself off as he looks you over.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -20379,8 +20226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 625
   indentLevel: 0
-  storyText: Righting himself, he hops to his feet. Fixing his glasses, he walks
-    over to you.
+  storyText: He rights himself and fixes his glasses before walking over to you.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -20477,11 +20323,13 @@ MonoBehaviour:
   - {fileID: 991451273}
   - {fileID: 991451272}
   - {fileID: 991451271}
+  - {fileID: 991451578}
   - {fileID: 991451270}
   - {fileID: 991451266}
   - {fileID: 991451269}
   - {fileID: 991451268}
   - {fileID: 991451280}
+  - {fileID: 991451579}
   - {fileID: 991451279}
   - {fileID: 991451278}
   suppressAllAutoSelections: 0
@@ -20582,9 +20430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 639
   indentLevel: 0
-  storyText: "You look over his shoulder. The paper looks scientific in nature. Something
-    about plants? You can\u2019t really make heads or tails of what exactly you\u2019re
-    reading."
+  storyText: 'You look over his shoulder. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -20642,7 +20488,7 @@ MonoBehaviour:
   storyText: Nice to meet you.
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20712,6 +20558,7 @@ MonoBehaviour:
   - {fileID: 991451287}
   - {fileID: 991451286}
   - {fileID: 991451285}
+  - {fileID: 991451567}
   - {fileID: 991451283}
   - {fileID: 991451281}
   suppressAllAutoSelections: 0
@@ -20781,7 +20628,7 @@ MonoBehaviour:
   indentLevel: 0
   text: I can't really tell plants apart.
   description: 
-  targetBlock: {fileID: 991451282}
+  targetBlock: {fileID: 991451284}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20806,7 +20653,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Yes! I love plants.
   description: 
-  targetBlock: {fileID: 991451284}
+  targetBlock: {fileID: 991451282}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20830,10 +20677,10 @@ MonoBehaviour:
   itemId: 644
   indentLevel: 0
   storyText: "Plant growth mostly. The plants around here grow very quickly and I
-    can\u2019t help but wonder why. Do you have any interest in botany?"
+    can\u2019t help but wonder why."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20859,7 +20706,7 @@ MonoBehaviour:
   indentLevel: 0
   text: I can't really tell plants apart.
   description: 
-  targetBlock: {fileID: 991451282}
+  targetBlock: {fileID: 991451284}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20884,17 +20731,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1666.4991
     y: 611.373
-    width: 163.12
+    width: 120.14
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 850
-  blockName: No_Botany_for_Me
+  blockName: I_<3_Plants
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 991451308}
   - {fileID: 991451307}
+  - {fileID: 991451571}
   - {fileID: 991451306}
   - {fileID: 991451305}
   - {fileID: 991451304}
@@ -20904,10 +20752,12 @@ MonoBehaviour:
   - {fileID: 991451313}
   - {fileID: 991451508}
   - {fileID: 991451312}
+  - {fileID: 991451572}
   - {fileID: 991451507}
   - {fileID: 991451311}
   - {fileID: 991451510}
   - {fileID: 991451310}
+  - {fileID: 991451573}
   - {fileID: 991451511}
   - {fileID: 991451512}
   - {fileID: 991451547}
@@ -20932,7 +20782,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Yes! I love plants.
   description: 
-  targetBlock: {fileID: 991451284}
+  targetBlock: {fileID: 991451282}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -20957,27 +20807,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1461.7468
     y: 607.7855
-    width: 120.14
+    width: 169.15
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 658
-  blockName: I_<3_Plants
+  blockName: No_Botany_for_Me1
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 991451302}
   - {fileID: 991451301}
+  - {fileID: 991451568}
   - {fileID: 991451300}
+  - {fileID: 991451569}
   - {fileID: 991451299}
   - {fileID: 991451298}
   - {fileID: 991451522}
   - {fileID: 991451297}
   - {fileID: 991451296}
   - {fileID: 991451521}
-  - {fileID: 991451295}
   - {fileID: 991451520}
   - {fileID: 991451294}
+  - {fileID: 991451295}
+  - {fileID: 991451570}
   - {fileID: 991451515}
   - {fileID: 991451293}
   - {fileID: 991451519}
@@ -21003,7 +20856,7 @@ MonoBehaviour:
   itemId: 656
   indentLevel: 0
   storyText: "I study plant growth mostly. The plants around here grow very quickly
-    and I can\u2019t help but wonder why. Do you like botany?"
+    and I can\u2019t help but wonder why."
   description: 
   character: {fileID: 1825282074}
   portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
@@ -21281,8 +21134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 668
   indentLevel: 0
-  storyText: He looks over the papers in his hands and grabs one of the charts. Flipping
-    it over, he scribbles directions onto the back and hands it to you.
+  storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -21419,11 +21271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 673
   indentLevel: 0
-  storyText: You tell him about your house plants instead. You may not know about
-    other plants but houseplants you understand. You even manage to keep most of
-    them alive.
+  storyText: 'You tell him about your house plants instead. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21449,8 +21299,7 @@ MonoBehaviour:
   itemId: 674
   indentLevel: 0
   storyText: "That\u2019s alright. I\u2019ll admit, I\u2019m a little fixated on
-    them so I know more than the average person. Most people in town don\u2019t really
-    know the difference either."
+    them so I know more than the average person. "
   description: 
   character: {fileID: 1825282074}
   portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
@@ -21479,7 +21328,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Wolfgang smiles.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21506,7 +21355,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You aren\u2019t much of a botanist yourself but you do like houseplants."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21531,11 +21380,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 678
   indentLevel: 0
-  storyText: "He flips through a couple of the papers, showing you a few charts.
-    From what you learn, the plants here are weird. You aren\u2019t much of a botanist
-    yourself but you do like houseplants."
+  storyText: 'He flips through a couple of the papers, showing you a few charts.
+    From what you learn, the plants here are weird. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21617,9 +21465,7 @@ MonoBehaviour:
   itemId: 681
   indentLevel: 0
   storyText: "Really? You\u2019re going to love the plants here. The soil here is
-    much more alkaline than what is typically found in this region but the plants
-    don\u2019t seem to care even though these specifies prefer a more neutral soil.
-    It\u2019s like they\u2019ve adapted or something."
+    much more alkaline than what is typically found in this region "
   description: 
   character: {fileID: 1825282074}
   portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
@@ -21701,11 +21547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 688
   indentLevel: 0
-  storyText: He waves as he trots off with his papers toward Town Hall. You flip
-    the paper over and see a diagram of the plant growth over the last two years.
-    There seems to be a rapid increase.
+  storyText: 'He waves as he trots off with his papers toward Town Hall. '
   description: 
-  character: {fileID: 1825282074}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21757,8 +21601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 686
   indentLevel: 0
-  storyText: He looks over the papers in his hands and grabs one of the charts. Flipping
-    it over, he scribbles directions onto the back and hands it to you.
+  storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -21883,6 +21726,7 @@ MonoBehaviour:
   - {fileID: 991451551}
   - {fileID: 991451323}
   - {fileID: 991451322}
+  - {fileID: 991451574}
   - {fileID: 991451321}
   - {fileID: 991451320}
   - {fileID: 991451319}
@@ -22017,8 +21861,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 692
   indentLevel: 0
-  storyText: As you get closer to the house porch, you hear a whistling, at a pitch
-    so natural it sounds like a bird.
+  storyText: As you get closer to your porch, you hear a whistling, at a pitch so
+    natural it sounds like a bird.
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -22045,9 +21889,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 691
   indentLevel: 0
-  storyText: "You follow the instructions Wolfgang left you and turn down one of
-    the residential streets. On your street, you don\u2019t see the movers parked
-    outside. They must have brought everything inside already."
+  storyText: 'You follow the instructions Wolfgang left you and turn down one of
+    the residential streets. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -22811,7 +22654,7 @@ MonoBehaviour:
   storyText: "It\u2019s nice to see new life in this place, though."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22835,8 +22678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 737
   indentLevel: 0
-  storyText: Oh, this is yours? My mistake, truly. This house has been empty for
-    some time.
+  storyText: 'Oh, this is yours? '
   description: 
   character: {fileID: 682754877}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
@@ -22875,6 +22717,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 991451349}
+  - {fileID: 991451592}
   - {fileID: 991451348}
   - {fileID: 991451347}
   - {fileID: 991451346}
@@ -23228,7 +23071,7 @@ MonoBehaviour:
   storyText: You can call me Finch. What can I call you?
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23308,8 +23151,7 @@ MonoBehaviour:
   itemId: 719
   indentLevel: 0
   storyText: "You\u2019d be surprised how little or how much or both it is to see
-    someone new around here! The Woods don\u2019t know what to make of you yet, and
-    neither do I, but you\u2019re\u2026"
+    someone new around here! "
   description: 
   character: {fileID: 682754877}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
@@ -23377,6 +23219,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 991451367}
   - {fileID: 991451366}
+  - {fileID: 991451577}
   - {fileID: 991451365}
   - {fileID: 991451364}
   - {fileID: 991451363}
@@ -24002,7 +23845,7 @@ MonoBehaviour:
 '
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24030,7 +23873,7 @@ MonoBehaviour:
     I heard something shatter.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24057,7 +23900,7 @@ MonoBehaviour:
   storyText: This seems very comfortable, though.
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24085,7 +23928,7 @@ MonoBehaviour:
     afraid."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24198,6 +24041,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 991451405}
+  - {fileID: 991451575}
   - {fileID: 991451404}
   - {fileID: 991451403}
   - {fileID: 991451401}
@@ -24274,9 +24118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 783
   indentLevel: 0
-  storyText: "Oh, around here the Woods are more than just trees. Although I\u2019d
-    argue that\u2019s the case anywhere, because trees are living, breathing beings,
-    but around here, they\u2019re special."
+  storyText: 'Oh, around here the Woods are more than just trees. '
   description: 
   character: {fileID: 682754877}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
@@ -25247,7 +25089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 822
   indentLevel: 0
-  text: I'll se you around, then?
+  text: I'll see you around, then?
   description: 
   targetBlock: {fileID: 991451433}
   hideIfVisited: 0
@@ -25276,7 +25118,7 @@ MonoBehaviour:
     Before we make any actual plans."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25303,7 +25145,7 @@ MonoBehaviour:
   storyText: "That\u2019s probably sensible."
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25330,7 +25172,7 @@ MonoBehaviour:
   storyText: I would LOVE that!
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25405,7 +25247,7 @@ MonoBehaviour:
   storyText: "Oh, and don\u2019t forget to grab your gift basket!"
   description: 
   character: {fileID: 682754877}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25550,6 +25392,7 @@ MonoBehaviour:
   - {fileID: 991451471}
   - {fileID: 991451470}
   - {fileID: 991451469}
+  - {fileID: 991451576}
   - {fileID: 991451468}
   - {fileID: 991451543}
   - {fileID: 991451467}
@@ -25697,8 +25540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 861
   indentLevel: 0
-  storyText: "Your eye scans them quickly. You should probably remember them if they\u2019re
-    important enough for you to get a copy."
+  storyText: 'Your eye scans them quickly. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -28379,6 +28221,1025 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &991451556
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 950
+  indentLevel: 0
+  storyText: You check your bag for your portable radio, but don't turn it on yet,
+    not wanting to waste the battery.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451557
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 951
+  indentLevel: 0
+  storyText: Its presence comforts you in the dead zone that is this town. Your town,
+    now.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451558
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 952
+  indentLevel: 0
+  storyText: 'The fluorescent lights catch her name tag: Dolly. The name fits her
+    stoic features.'
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451559
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 954
+  indentLevel: 0
+  storyText: A new experience on top of all of the other new experiences.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451560
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 953
+  indentLevel: 0
+  storyText: 'Despite wanting your usual, it might be nice to try something new. '
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451561
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 956
+  indentLevel: 0
+  storyText: 'The smell of vanilla wafts through the air as she works. '
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451562
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 955
+  indentLevel: 0
+  storyText: 'Dolly nods. She takes the menu and goes behind the counter to make
+    it for you. '
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451563
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 957
+  indentLevel: 0
+  storyText: A companioned silence falls over the two of you.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451564
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 958
+  indentLevel: 0
+  storyText: You leave the money and a nice tip on the table.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451565
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 959
+  indentLevel: 0
+  storyText: You should have probably asked Dolly for directions.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451566
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 960
+  indentLevel: 0
+  storyText: "I\u2019m Wolfgang, by the way. I promise I usually watch where I\u2019m
+    walking."
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451567
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 961
+  indentLevel: 0
+  storyText: Do you like botany?
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451568
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 962
+  indentLevel: 0
+  storyText: "Most people in town don\u2019t really know the difference either."
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451569
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 963
+  indentLevel: 0
+  storyText: You may not know about other plants, but houseplants you understand.
+    You even manage to keep most of them alive.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451570
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 964
+  indentLevel: 0
+  storyText: Flipping it over, he scribbles directions onto the back and hands it
+    to you.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451571
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 965
+  indentLevel: 0
+  storyText: "but the plants don\u2019t seem to care even though these species prefer
+    a more neutral soil. It\u2019s like they\u2019ve adapted or something."
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451572
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 966
+  indentLevel: 0
+  storyText: Flipping it over, he scribbles directions onto the back and hands it
+    to you.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451573
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 967
+  indentLevel: 0
+  storyText: You flip the paper over and see a diagram of the plant growth over the
+    last two years. There seems to be a rapid increase.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451574
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 968
+  indentLevel: 0
+  storyText: "On your street, you don\u2019t see the movers parked outside. They
+    must have brought everything inside already."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451575
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 969
+  indentLevel: 0
+  storyText: "Although I\u2019d argue that\u2019s the case anywhere, because trees
+    are living, breathing beings, but around here, they\u2019re special."
+  description: 
+  character: {fileID: 682754877}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451576
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 970
+  indentLevel: 0
+  storyText: "You should probably remember them if they\u2019re important enough
+    for you to get a copy."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451577
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 971
+  indentLevel: 0
+  storyText: "The Woods don\u2019t know what to make of you yet, and neither do I,
+    but you\u2019re\u2026"
+  description: 
+  character: {fileID: 682754877}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451578
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 972
+  indentLevel: 0
+  storyText: "The paper looks scientific in nature. Something about plants? You can\u2019t
+    really make heads or tails of what exactly you\u2019re reading."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451579
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 973
+  indentLevel: 0
+  storyText: Do you have any interest in botany?
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451580
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 974
+  indentLevel: 0
+  storyText: 'This close to the outskirts of town, you can barely make out the town
+    itself over the treeline. '
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451581
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 975
+  indentLevel: 0
+  storyText: We need a little excitement around here.
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451582
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 976
+  indentLevel: 0
+  storyText: "You\u2019d been tired of the city life mostly. Something drew you to
+    a small quiet life in the sticks."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451583
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 977
+  indentLevel: 0
+  storyText: With no other idea of what to say, you shrug.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451584
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 978
+  indentLevel: 0
+  storyText: "I think it\u2019s the ice cream parlor. The mint chocolate chip ice
+    cream is to die for."
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 979
+  indentLevel: 0
+  storyText: The forest seems so dense and all-consuming.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 980
+  indentLevel: 0
+  storyText: 'You pay for your coffee and leave a nice tip on the table. '
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 981
+  indentLevel: 0
+  storyText: "She\u2019s right. The movers should be there any minute now if they\u2019re
+    not there already."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 982
+  indentLevel: 0
+  storyText: "Music\u2019s good too. I picked it myself."
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 983
+  indentLevel: 0
+  storyText: "Maybe she\u2019s waiting for her shift to end?"
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 984
+  indentLevel: 0
+  storyText: A companioned silence falls over the two of you.
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 985
+  indentLevel: 0
+  storyText: "The smell of fruit wafts through the air as she works, but you can\u2019t
+    place which fruit it is."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 986
+  indentLevel: 0
+  storyText: My mistake, truly. This house has been empty for some time.
+  description: 
+  character: {fileID: 682754877}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &997589381
 GameObject:
   m_ObjectHideFlags: 0
@@ -28510,7 +29371,7 @@ MonoBehaviour:
   continueButton: {fileID: 1879050780}
   dialogCanvas: {fileID: 997589390}
   nameText: {fileID: 0}
-  nameTextGO: {fileID: 943269544}
+  nameTextGO: {fileID: 0}
   storyText: {fileID: 0}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 568994425}
@@ -28605,7 +29466,6 @@ RectTransform:
   m_Children:
   - {fileID: 568994428}
   - {fileID: 924691352}
-  - {fileID: 943269545}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
