@@ -816,6 +816,7 @@ Transform:
   - {fileID: 1825282075}
   - {fileID: 17041312}
   - {fileID: 682754876}
+  - {fileID: 494575129}
   - {fileID: 1508007125}
   - {fileID: 722342967}
   - {fileID: 1780337988}
@@ -1894,6 +1895,59 @@ MonoBehaviour:
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
+  description: 
+--- !u!1 &494575128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494575129}
+  - component: {fileID: 494575130}
+  m_Layer: 0
+  m_Name: FinchNarrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494575129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494575128}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 64949474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &494575130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494575128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: 
+  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 5e2d772b00ef34a3fb3beababeff213f, type: 3}
+  - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 997589386}
   description: 
 --- !u!1 &494663260
 GameObject:
@@ -4267,7 +4321,6 @@ GameObject:
   - component: {fileID: 991451282}
   - component: {fileID: 991451283}
   - component: {fileID: 991451281}
-  - component: {fileID: 991451302}
   - component: {fileID: 991451292}
   - component: {fileID: 991451293}
   - component: {fileID: 991451294}
@@ -4596,11 +4649,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -712.6694, y: -662.94147}
+  scrollPos: {x: -754.4457, y: 60.819023}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 254.66666
-  zoom: 0.64575064
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4608,9 +4661,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451368}
+  - {fileID: 991451173}
   selectedCommands:
-  - {fileID: 991451363}
+  - {fileID: 991451197}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -7034,8 +7087,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Dolly hands you a laminated menu. You look over the drinks. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7228,7 +7281,7 @@ MonoBehaviour:
   storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7255,7 +7308,7 @@ MonoBehaviour:
   storyText: You order the Monday Blues and Dolly smiles.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7392,8 +7445,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1805.4078
-    y: 206.24986
+    x: 1807.9438
+    y: 207.5179
     width: 115.94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7500,8 +7553,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: It is good, though. Very good.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7528,8 +7581,8 @@ MonoBehaviour:
   storyText: "The tea is iced, floral, and tasting of passion-fruit, but with a strange
     sweetness that you wouldn\u2019t expect at all."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7555,8 +7608,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Strawberry? Pineapple? The smell seems to change over time.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7637,7 +7690,7 @@ MonoBehaviour:
   storyText: How's your drink?
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7664,8 +7717,8 @@ MonoBehaviour:
   storyText: "You weren\u2019t expecting the taste but you like it. The drink has
     a bit of a kick."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7692,8 +7745,8 @@ MonoBehaviour:
   storyText: You lick away the foam collecting on your lips and chocolate shavings
     on your fingertips.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7720,8 +7773,8 @@ MonoBehaviour:
   storyText: The sweet taste of cream and spirits lingers with the sharp smell of
     vanilla.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7748,8 +7801,8 @@ MonoBehaviour:
   storyText: A sharp burn hits the back of your throat on the first gulp. What diner
     sells alcohol?
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7802,8 +7855,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'The silly name catches your eye immediately. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17465,8 +17518,8 @@ MonoBehaviour:
   storyText: "The menu isn\u2019t very large but the signature drinks catch your
     eye. "
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17611,8 +17664,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You order your usual coffee and she scribbles something down.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17748,8 +17801,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You look out the window. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17773,7 +17826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1333.6014
+    x: 1332.5085
     y: 285.93008
     width: 130.09
     height: 40
@@ -17889,7 +17942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1489.7826
+    x: 1490.8755
     y: 285.93008
     width: 121.97
     height: 40
@@ -18072,8 +18125,8 @@ MonoBehaviour:
   storyText: 'You raise your mug and the two of you drink in companioned silence
     until you finally have to go. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18100,7 +18153,7 @@ MonoBehaviour:
   storyText: Either way, welcome to Craven.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18126,8 +18179,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18181,8 +18234,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: She makes a coffee of her own and raises the mug.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18208,8 +18261,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly seems to understand either way.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18263,8 +18316,8 @@ MonoBehaviour:
   storyText: Dolly leans against the counter. Her long wild hair frames her face
     as she talks.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18318,8 +18371,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You don\u2019t exactly know what to say. "
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18718,8 +18771,8 @@ MonoBehaviour:
     feel a warmth spreading through you. The rich taste of cloves and honey coats
     your tongue. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18745,8 +18798,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You take a small sip.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18772,8 +18825,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: The cup is cold in your hands. The liquid is milky in color.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18826,8 +18879,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'The smoky smell of pepper wafts through the air as she works. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19229,8 +19282,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You take a sip.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19258,7 +19311,7 @@ MonoBehaviour:
     her."
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20920,7 +20973,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 991451302}
   - {fileID: 991451301}
   - {fileID: 991451568}
   - {fileID: 991451300}
@@ -21186,7 +21238,7 @@ MonoBehaviour:
     the paper over and see a diagram of the plant growth over the last two years.
     There seems to be a rapid increase.
   description: 
-  character: {fileID: 1825282074}
+  character: {fileID: 1780337989}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21240,8 +21292,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21296,8 +21348,8 @@ MonoBehaviour:
   storyText: The bell over the town hall chimes. Wolfgang looks up. You notice everyone
     in town does as well.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21350,8 +21402,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Wolfgang shifts his papers around in his hands. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21377,8 +21429,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You tell him about your house plants instead. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21406,34 +21458,7 @@ MonoBehaviour:
     them so I know more than the average person. "
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &991451302
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991450659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 661
-  indentLevel: 0
-  storyText: Wolfgang smiles.
-  description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21459,8 +21484,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You aren\u2019t much of a botanist yourself but you do like houseplants."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21487,8 +21512,8 @@ MonoBehaviour:
   storyText: 'He flips through a couple of the papers, showing you a few charts.
     From what you learn, the plants here are weird. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21517,7 +21542,7 @@ MonoBehaviour:
     really growing quickly."
   description: 
   character: {fileID: 1825282074}
-  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21543,8 +21568,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He holds up the papers with a grin.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21598,8 +21623,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Wolfgang\u2019s eyes light up."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21707,8 +21732,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'He looks over the papers in his hands and grabs one of the charts. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21763,8 +21788,8 @@ MonoBehaviour:
   storyText: The bell over the town hall chimes. Wolfgang looks up. You notice everyone
     in town does as well.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21857,8 +21882,8 @@ MonoBehaviour:
   storyText: Suddenly they appear to notice you looking, and they stop whistling,
     waving at you like an old friend.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22464,8 +22489,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1474.5416
-    y: 756.0455
+    x: 1473.6644
+    y: 757.79987
     width: 141.04001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -22500,8 +22525,8 @@ MonoBehaviour:
   storyText: "Looking closely at them, there is something slightly unsettling about
     them. You can\u2019t quite put your finger on it."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22556,8 +22581,8 @@ MonoBehaviour:
   storyText: "You don\u2019t see them get off the fence, but suddenly they\u2019re
     standing in front of you, smiling."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22583,8 +22608,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You edge slightly closer to your front door.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23201,8 +23226,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "The tune they\u2019d been whistling echoes around your mind."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23229,8 +23254,8 @@ MonoBehaviour:
   storyText: They study you for a moment, and you study them in return. Everything
     about them seems curious, and you find yourself curious in turn.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23285,8 +23310,8 @@ MonoBehaviour:
   storyText: "You don\u2019t see them get off the fence, but suddenly they\u2019re
     standing in front of you, smiling."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23311,7 +23336,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1677.9902
-    y: 754.0574
+    y: 753.14417
     width: 149.98001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -23509,8 +23534,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You introduce yourself, being careful of your phrasing.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23565,8 +23590,8 @@ MonoBehaviour:
   storyText: "And just as suddenly as the earnestness came on, it vanishes again
     under Finch\u2019s bubbly exterior, much like that of a talk show host."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23592,8 +23617,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Finch nods, eyes wide and earnest.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23698,8 +23723,8 @@ MonoBehaviour:
   storyText: "This sudden earnestness almost seems strange. But then it\u2019s gone,
     back under the bright and bubbly smile."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23725,8 +23750,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You introduce yourself.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24108,8 +24133,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Huh, a hippie. Interesting.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24197,8 +24222,8 @@ MonoBehaviour:
   storyText: You remember Wolfgang mentioning something about the trees here growing
     strangely.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 494575130}
+  portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24277,7 +24302,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1405.689
-    y: 1174.1614
+    y: 1175.3108
     width: 95.25
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -24630,7 +24655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1748.2981
+    x: 1749.4475
     y: 1081.9868
     width: 112.96
     height: 40
@@ -28425,8 +28450,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A new experience on top of all of the other new experiences.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28452,8 +28477,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Despite wanting your usual, it might be nice to try something new. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28479,8 +28504,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'The smell of vanilla wafts through the air as she works. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28698,8 +28723,8 @@ MonoBehaviour:
   storyText: You may not know about other plants, but houseplants you understand.
     You even manage to keep most of them alive.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28726,8 +28751,8 @@ MonoBehaviour:
   storyText: Flipping it over, he scribbles directions onto the back and hands it
     to you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28782,8 +28807,8 @@ MonoBehaviour:
   storyText: Flipping it over, he scribbles directions onto the back and hands it
     to you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29005,8 +29030,8 @@ MonoBehaviour:
   storyText: 'This close to the outskirts of town, you can barely make out the town
     itself over the treeline. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29060,8 +29085,8 @@ MonoBehaviour:
   storyText: "You\u2019d been tired of the city life mostly. Something drew you to
     a small quiet life in the sticks."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29087,8 +29112,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: With no other idea of what to say, you shrug.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29142,8 +29167,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: The forest seems so dense and all-consuming.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29169,8 +29194,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You pay for your coffee and leave a nice tip on the table. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29306,8 +29331,8 @@ MonoBehaviour:
   storyText: "The smell of fruit wafts through the air as she works, but you can\u2019t
     place which fruit it is."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29458,8 +29483,8 @@ MonoBehaviour:
   storyText: "There\u2019s a sweet undertone to the drink you hadn\u2019t been expecting.
     First impressions can be deceiving."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

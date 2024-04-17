@@ -81,9 +81,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e6470160-adce-4c21-b4d6-58ea0bb57a2c}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<relationship name="effectChain">
 			<destination>{0d14b4a1-52e3-4a38-8392-2dcd539e4d7e}</destination>
 		</relationship>
@@ -122,109 +119,45 @@
 	</object>
 	<object class="MixerBusPanner" id="{7c95e692-5116-45b7-b270-9225c7b663a9}" />
 	<object class="EventSound" id="{885ea1f4-9bce-4bc6-b5b1-a0ed783d748e}">
-		<relationship name="parameters">
-			<destination>{e0aaf0f1-0ddd-4189-8b8b-aa046cc94e63}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{bff054d3-5197-4878-9a03-3d7b92c327e1}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{a9b238e6-262c-4c54-99de-6a5b7e6d54e0}">
-		<relationship name="parameters">
-			<destination>{77f455b3-08d2-4b4a-b381-9dd62dedd010}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{2e6fff51-61a6-4f66-a8ba-f8353644776b}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{8ec4afb4-2fb0-41f0-9606-9d58b1d2fd2a}">
-		<relationship name="parameters">
-			<destination>{75bb26b2-d515-4fe7-a60a-9ec94469e828}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{6cb5d9f0-0497-40d0-8174-5b0c12312132}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{4bfdb17e-d5d8-448a-b998-4e369a8cd886}">
-		<relationship name="parameters">
-			<destination>{6c4b9967-f56e-4e4e-9784-ab9f7c8b54cf}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{108d67f5-963b-4afc-a851-41becd369509}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{b7e747f6-67d8-4c33-96a9-3086a4cc03a5}">
-		<relationship name="parameters">
-			<destination>{36ac5795-8f2d-4520-907f-062d87310a93}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{6d2b6420-4bf8-4526-8cd3-edd34cafa548}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{763170c1-c701-4a20-9e28-a2d42f774844}">
-		<relationship name="parameters">
-			<destination>{6e1f12ef-d55b-4036-9ad4-853cfbc80f57}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{33858989-1750-4671-adde-5e5d0184083a}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{d2e7b945-0698-402a-9479-d274efa73baa}">
-		<relationship name="parameters">
-			<destination>{da804822-bd02-42fa-904e-16ce92b52aba}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{a3acf765-5f82-4d32-a77e-1f2cc722a2d4}</destination>
 		</relationship>
 	</object>
 	<object class="EventSound" id="{99786a08-d5c8-463c-97f4-f85dbf5c764e}">
-		<relationship name="parameters">
-			<destination>{dd3a3285-2f17-4064-b6e9-ef6e61e961a0}</destination>
-		</relationship>
 		<relationship name="event">
 			<destination>{474bda14-0a1c-439b-a564-9916ace14c81}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1ab2a4e8-b359-4ffa-82e7-15645ad71d1c}" />
 	<object class="MixerBusFader" id="{59104a9a-ea0a-4c59-9254-560b72fe188d}" />
-	<object class="ParameterProperty" id="{e0aaf0f1-0ddd-4189-8b8b-aa046cc94e63}">
-		<relationship name="parameter">
-			<destination>{feff4b87-6c78-4b8f-8a21-ef78efa1e885}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{77f455b3-08d2-4b4a-b381-9dd62dedd010}">
-		<relationship name="parameter">
-			<destination>{7d005373-535b-43be-a227-26fe83ca2608}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{75bb26b2-d515-4fe7-a60a-9ec94469e828}">
-		<relationship name="parameter">
-			<destination>{13bbd9c3-38d2-4919-b12e-76b4e43e9d75}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{6c4b9967-f56e-4e4e-9784-ab9f7c8b54cf}">
-		<relationship name="parameter">
-			<destination>{a73d5d69-e6c9-4c26-bf4e-4e3f53f4f3c3}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{36ac5795-8f2d-4520-907f-062d87310a93}">
-		<relationship name="parameter">
-			<destination>{2a49c7cf-2657-424a-a775-381e659786f4}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{6e1f12ef-d55b-4036-9ad4-853cfbc80f57}">
-		<relationship name="parameter">
-			<destination>{f4a6b329-44e3-409f-aace-5502864e5281}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{da804822-bd02-42fa-904e-16ce92b52aba}">
-		<relationship name="parameter">
-			<destination>{e5d7f738-482b-44c0-b07f-838e68dbb3de}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{dd3a3285-2f17-4064-b6e9-ef6e61e961a0}">
-		<relationship name="parameter">
-			<destination>{348157e3-2575-43f0-9624-ab10f7e61bf6}</destination>
-		</relationship>
-	</object>
 </objects>
