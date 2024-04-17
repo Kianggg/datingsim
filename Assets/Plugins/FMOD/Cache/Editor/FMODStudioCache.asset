@@ -177,7 +177,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638488019365368455
+  lastModified: 638489752759179755
   FileSizes:
   - Name: Desktop
     Value: 1868096
@@ -366,7 +366,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-5064995457294883232
@@ -441,7 +441,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-4751596524603585334
@@ -574,7 +574,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-3864032729817790132
@@ -673,10 +673,10 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638488019364234204
+  lastModified: 638489752757983138
   FileSizes:
   - Name: Desktop
-    Value: 522592
+    Value: 522784
   Exists: 1
 --- !u!114 &-2641877425000227947
 MonoBehaviour:
@@ -726,13 +726,13 @@ MonoBehaviour:
     Data4: 1717327920
   Banks:
   - {fileID: 6870413443579323611}
-  IsStream: 0
+  IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 0
+  Length: 66928
 --- !u!114 &-1238520607484801057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -829,10 +829,10 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/UI.bank
   Name: UI
   StudioPath: bank:/UI
-  lastModified: 638488019366666323
+  lastModified: 638489752760239626
   FileSizes:
   - Name: Desktop
-    Value: 9828096
+    Value: 9827712
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -908,12 +908,13 @@ MonoBehaviour:
   - {fileID: -5064995457294883232}
   - {fileID: -8260100611846093817}
   - {fileID: -4629034954819135157}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 410220741304677520}
   MasterBanks:
   - {fileID: -3017159786699918443}
   StringsBanks:
   - {fileID: 487377641171352986}
-  cacheTime: 638488019366666323
+  cacheTime: 638489752760239626
   cacheVersion: 131616
 --- !u!114 &80444607701756792
 MonoBehaviour:
@@ -943,6 +944,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 27904
+--- !u!114 &410220741304677520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Haunted_UI_Dial
+  m_EditorClassIdentifier: 
+  Name: Haunted_UI_Dial
+  StudioPath: parameter:/Haunted_UI_Dial
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2870796595
+    data2: 1660400348
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &419119321740173342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,7 +1061,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638488019364511990
+  lastModified: 638489752758239400
   FileSizes:
   - Name: Desktop
     Value: 3780
@@ -1089,7 +1114,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &1871637076154288648
@@ -1216,7 +1241,7 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 638488019363896609
+  lastModified: 638489752757643211
   FileSizes:
   - Name: Desktop
     Value: 1574048
@@ -1351,7 +1376,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &2946537039170568941
@@ -1593,7 +1618,7 @@ MonoBehaviour:
     data1: 2870796595
     data2: 1660400348
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &5982811600322627287
@@ -1665,10 +1690,10 @@ MonoBehaviour:
   Path: Assets/DatingSim_PrologueDemo_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638488019364912876
+  lastModified: 638489752758787401
   FileSizes:
   - Name: Desktop
-    Value: 1315680
+    Value: 3385728
   Exists: 1
 --- !u!114 &6958597871310588194
 MonoBehaviour:
