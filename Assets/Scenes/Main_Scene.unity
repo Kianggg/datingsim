@@ -119,6 +119,60 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &17041311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 17041312}
+  - component: {fileID: 17041313}
+  m_Layer: 0
+  m_Name: WolfgangNarrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &17041312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17041311}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 64949474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &17041313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17041311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: 
+  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 8f529b17ca4dc4d4b92dd71714ab8cc8, type: 3}
+  - {fileID: 21300000, guid: fdbea8ccf62c24bc4b8290e718393d44, type: 3}
+  - {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 997589386}
+  description: 
 --- !u!1 &22005418
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,8 +814,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1825282075}
+  - {fileID: 17041312}
   - {fileID: 682754876}
   - {fileID: 1508007125}
+  - {fileID: 722342967}
   - {fileID: 1780337988}
   - {fileID: 1200923326}
   - {fileID: 108884817}
@@ -816,7 +872,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
+  - {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   - {fileID: 21300000, guid: 23a2827dbce2448b3940c2c17e9d426b, type: 3}
+  - {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1542374397}
   description: 
@@ -2707,6 +2765,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &722342966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722342967}
+  - component: {fileID: 722342968}
+  m_Layer: 0
+  m_Name: DollyNarrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722342967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722342966}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 64949474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722342968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722342966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: 
+  nameColor: {r: 1, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 11f7a61cacae749ec9bea5412d38e3e3, type: 3}
+  - {fileID: 21300000, guid: e6b7dc34cec7649aeae74b0c1091f650, type: 3}
+  - {fileID: 21300000, guid: 5063e04e42397431596db32a0a3129c4, type: 3}
+  - {fileID: 21300000, guid: fe1a6b1c354634285bcd3ebe4ad502bb, type: 3}
+  - {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
+  - {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 997589386}
+  description: 
 --- !u!1 &846506740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3747,6 @@ GameObject:
   - component: {fileID: 991450663}
   - component: {fileID: 991450662}
   - component: {fileID: 991450661}
-  - component: {fileID: 991450660}
   - component: {fileID: 991450664}
   - component: {fileID: 991450666}
   - component: {fileID: 991450674}
@@ -4429,6 +4543,11 @@ GameObject:
   - component: {fileID: 991451590}
   - component: {fileID: 991451591}
   - component: {fileID: 991451592}
+  - component: {fileID: 991451594}
+  - component: {fileID: 991451595}
+  - component: {fileID: 991451593}
+  - component: {fileID: 991451596}
+  - component: {fileID: 991451597}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4436,21 +4555,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &991450660
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991450659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 991450661}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &991450661
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4474,7 +4578,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Game_Start
   description: 
-  eventHandler: {fileID: 991450660}
+  eventHandler: {fileID: 991451596}
   commandList:
   - {fileID: 991450676}
   - {fileID: 991450675}
@@ -4492,11 +4596,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -805.5536, y: -647.4357}
+  scrollPos: {x: -712.6694, y: -662.94147}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.5557507
+  blockViewHeight: 254.66666
+  zoom: 0.64575064
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4504,9 +4608,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 991451338}
+  - {fileID: 991451368}
   selectedCommands:
-  - {fileID: 991451341}
+  - {fileID: 991451363}
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -6805,7 +6909,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1468.9954
-    y: 207.05414
+    y: 208.32217
     width: 169
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6957,8 +7061,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Dolly doesn\u2019t bother looking up from her notepad."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7150,8 +7254,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You order the Monday Blues and Dolly smiles.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7175,7 +7279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 102
   indentLevel: 0
-  text: '"TGIF"'
+  text: '"Tea-GIF"'
   description: 
   targetBlock: {fileID: 991450772}
   hideIfVisited: 0
@@ -7252,12 +7356,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1956.7191
     y: 209.34319
-    width: 78.68
+    width: 98.92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 154
-  blockName: TGIF
+  blockName: Tea-GIF
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -7347,6 +7451,7 @@ MonoBehaviour:
   - {fileID: 991451206}
   - {fileID: 991451497}
   - {fileID: 991451205}
+  - {fileID: 991451597}
   - {fileID: 991450761}
   - {fileID: 991451225}
   - {fileID: 991450760}
@@ -7477,8 +7582,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: She brings a glass of reddish-pink liquid to you, and you take a sip.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -7670,8 +7775,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A couple of minutes later, she comes back with a small cup.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16753,7 +16858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1496.8993
+    x: 1498.0989
     y: 143.60826
     width: 116.47
     height: 40
@@ -17250,8 +17355,8 @@ MonoBehaviour:
   storyText: 'Her eyes scan the diner before they land on you. She goes back inside
     the diner and comes back with a small notepad. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17277,8 +17382,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'The kitchen door squeaks as a young woman peeks her head through. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17332,8 +17437,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly waits to see which one you pick. You need to decide on something.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17388,8 +17493,8 @@ MonoBehaviour:
   storyText: Snapping the notepad closed, she goes to the counter and starts making
     your coffee.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17534,8 +17639,8 @@ MonoBehaviour:
   storyText: "She\u2019d been right about the order, you might as well just get it.
     Besides, a bit of familiarity in this unfamiliar situation would be nice."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17562,8 +17667,8 @@ MonoBehaviour:
   storyText: Her sarcastic demeanor pulls a small chuckle out of you. She looks up
     at you, waiting.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17589,8 +17694,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: She says it with an eye roll.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17939,8 +18044,8 @@ MonoBehaviour:
   storyText: That surprises a laugh out of Dolly. The sound is melodic and fills
     the empty diner.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18609,10 +18714,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 577
   indentLevel: 0
-  storyText: "Despite the frigid temperature of the drink, on the first sip, you
+  storyText: 'Despite the frigid temperature of the drink, on the first sip, you
     feel a warmth spreading through you. The rich taste of cloves and honey coats
-    your tongue. There\u2019s a sweet undertone to the drink you hadn\u2019t been
-    expecting. First impressions can be deceiving."
+    your tongue. '
   description: 
   character: {fileID: 1780337989}
   portrait: {fileID: 0}
@@ -18695,8 +18799,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: A couple of minutes later, she comes back with a small cup.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18749,8 +18853,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: She takes the menu and goes behind the counter to make it for you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18970,8 +19074,8 @@ MonoBehaviour:
   storyText: "Dolly\u2019s voice pulls you away from your drink and you look up at
     her."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19098,8 +19202,8 @@ MonoBehaviour:
   storyText: "Dolly\u2019s voice pulls you away from your drink and you look up at
     her."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19153,8 +19257,8 @@ MonoBehaviour:
   storyText: "Dolly\u2019s voice pulls you away from your drink and you look up at
     her."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19394,8 +19498,8 @@ MonoBehaviour:
   storyText: 'Dolly nods, takes the menu, and goes behind the counter to make it
     for you. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20037,8 +20141,8 @@ MonoBehaviour:
   storyText: A young man looks at you, just as surprised by the collision as you
     are. It looks like neither of you were paying attention.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20065,7 +20169,7 @@ MonoBehaviour:
   storyText: "Of course this is how I\u2019d meet you. Nearly bulldozing you over
     in the middle of town."
   description: 
-  character: {fileID: 1825282074}
+  character: {fileID: 108884818}
   portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20092,8 +20196,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You nod and he sighs.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20121,7 +20225,7 @@ MonoBehaviour:
     moving in."
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20228,8 +20332,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He rights himself and fixes his glasses before walking over to you.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20255,8 +20359,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He looks around at the papers scattered across the lawn.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22308,7 +22412,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Hello! You're new here!
   description: 
-  character: {fileID: 682754877}
+  character: {fileID: 108884818}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -22504,8 +22608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1684.2583
-    y: 818.00525
+    x: 1683.0587
+    y: 822.8036
     width: 139.34
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -23153,7 +23257,7 @@ MonoBehaviour:
   storyText: "You\u2019d be surprised how little or how much or both it is to see
     someone new around here! "
   description: 
-  character: {fileID: 682754877}
+  character: {fileID: 108884818}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -28294,8 +28398,8 @@ MonoBehaviour:
   storyText: 'The fluorescent lights catch her name tag: Dolly. The name fits her
     stoic features.'
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28403,8 +28507,8 @@ MonoBehaviour:
   storyText: 'Dolly nods. She takes the menu and goes behind the counter to make
     it for you. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28818,7 +28922,7 @@ MonoBehaviour:
   storyText: "The Woods don\u2019t know what to make of you yet, and neither do I,
     but you\u2019re\u2026"
   description: 
-  character: {fileID: 682754877}
+  character: {fileID: 108884818}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -29024,7 +29128,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29051,7 +29155,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451586
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29078,7 +29182,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451587
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29106,7 +29210,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451588
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29133,7 +29237,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451589
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29160,7 +29264,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451590
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29187,7 +29291,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451591
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29215,7 +29319,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &991451592
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29231,6 +29335,131 @@ MonoBehaviour:
   description: 
   character: {fileID: 682754877}
   portrait: {fileID: 21300000, guid: 04c8126c77cf845d7830bc436fc6c262, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451593
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 989
+  indentLevel: 0
+  storyText: also talking
+  description: 
+  character: {fileID: 1508007126}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451594
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1688.1918
+    y: -70.89342
+    width: 110.18
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 987
+  blockName: TestBlock
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 991451595}
+  - {fileID: 991451593}
+  suppressAllAutoSelections: 0
+--- !u!114 &991451595
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 988
+  indentLevel: 0
+  storyText: test talking
+  description: 
+  character: {fileID: 1825282074}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &991451596
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 991450661}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &991451597
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991450659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 990
+  indentLevel: 0
+  storyText: "There\u2019s a sweet undertone to the drink you hadn\u2019t been expecting.
+    First impressions can be deceiving."
+  description: 
+  character: {fileID: 1780337989}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
