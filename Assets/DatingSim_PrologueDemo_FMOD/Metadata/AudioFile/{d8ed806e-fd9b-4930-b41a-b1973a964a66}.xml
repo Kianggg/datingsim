@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d8ed806e-fd9b-4930-b41a-b1973a964a66}">
+		<property name="assetPath">
+			<value>DatingSim_Jukebox_Music_Trumpet in Bb.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>42</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16fcce0-05ff-4de6-96cf-46025d04e881}</destination>
+		</relationship>
+	</object>
+</objects>

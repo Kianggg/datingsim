@@ -14,11 +14,13 @@ public class Utility_Functions : MonoBehaviour
     public EventInstance broadcastEvacInst;
     public EventInstance broadcastIntroInst;
     public EventInstance broadcastDanceInst;
+    public EventInstance masterDialInst;
 
     public EventReference broadcastAdRef;
     public EventReference broadcastEvacRef;
     public EventReference broadcastIntroRef;
     public EventReference broadcastDanceRef;
+    public EventReference masterDialRef;
 
     private void Start()
     {
@@ -27,6 +29,7 @@ public class Utility_Functions : MonoBehaviour
         broadcastEvacInst = FMODUnity.RuntimeManager.CreateInstance(broadcastEvacRef);
         broadcastIntroInst = FMODUnity.RuntimeManager.CreateInstance(broadcastIntroRef);
         broadcastDanceInst = FMODUnity.RuntimeManager.CreateInstance(broadcastDanceRef);
+        masterDialInst = FMODUnity.RuntimeManager.CreateInstance(masterDialRef);
 
     }
 
@@ -40,6 +43,7 @@ public class Utility_Functions : MonoBehaviour
         broadcastEvacInst.setParameterByName("Haunted_UI_Dial", dial);
         broadcastIntroInst.setParameterByName("Haunted_UI_Dial", dial);
         broadcastDanceInst.setParameterByName("Haunted_UI_Dial", dial);
+        masterDialInst.setParameterByName("Haunted_UI_Dial", dial);
     }
 
     public void StopAllAudio()
@@ -88,6 +92,9 @@ public class Utility_Functions : MonoBehaviour
             case "dance":
                 broadcastDanceInst.start();
                 break;
+            case "dial":
+                masterDialInst.start();
+                break;
             default:
                 Debug.Log("Ambience string " + ambToPlay + " not found.");
                 break;
@@ -109,6 +116,9 @@ public class Utility_Functions : MonoBehaviour
                 break;
             case "dance":
                 broadcastDanceInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                break;
+            case "dial":
+                masterDialInst.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
                 break;
             default:
                 Debug.Log("Ambience string " + ambToStop + " not found.");
