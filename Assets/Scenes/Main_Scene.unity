@@ -4649,21 +4649,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -754.4457, y: 60.819023}
+  scrollPos: {x: -1183.9003, y: -651.6217}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 254.66666
-  zoom: 0.6100004
+  zoom: 0.59975016
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 991451173}
-  selectedCommands:
-  - {fileID: 991451197}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 991450688}
   - {fileID: 991450967}
@@ -18014,8 +18012,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You pause. You don\u2019t remember mentioning any movers. "
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18041,8 +18039,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: She settles behind the counter and makes her own cup of coffee.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18180,7 +18178,7 @@ MonoBehaviour:
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
   character: {fileID: 722342968}
-  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18453,8 +18451,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You look at your watch again. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18481,8 +18479,8 @@ MonoBehaviour:
   storyText: 'When you look up, Dolly has moved over to the jukebox and is picking
     a new song. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18524,8 +18522,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You two drink your coffee in companioned silence.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18551,8 +18549,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'She offers you a small smile before she takes a sip of her coffee. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18605,8 +18603,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly slips behind the counter and makes herself a cup of coffee.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18660,8 +18658,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly looks around at the empty tables.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18688,7 +18686,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18714,8 +18712,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18742,8 +18740,8 @@ MonoBehaviour:
   storyText: You get up. Leaving the money and a nice tip on the table, you head
     out the door.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18934,7 +18932,7 @@ MonoBehaviour:
   storyText: Be seeing you.
   description: 
   character: {fileID: 1508007126}
-  portrait: {fileID: 21300000, guid: 5063e04e42397431596db32a0a3129c4, type: 3}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18960,8 +18958,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Dolly gives you a friendly wave as you leave.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: 336eab426d02d4433a23f0b64cfd7041, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18987,8 +18985,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You leave the money and a nice tip on the table.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19015,8 +19013,8 @@ MonoBehaviour:
   storyText: 'You quickly tell Dolly the time and she nods, almost uninterested despite
     being the one who asked. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19040,11 +19038,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 572
   indentLevel: 0
-  storyText: "You\u2019ve been in the diner a little too long. You should probably
-    get going; the movers are probably already at your house."
+  storyText: "Wow, you\u2019ve been in the diner a little too long. You should probably
+    get going; the movers are likely already at your house."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19096,11 +19094,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 567
   indentLevel: 0
-  storyText: "You look up at her. She\u2019s staring at you. You look down at the
-    watch. Wow! "
+  storyText: "You look up at her. She\u2019s staring at you. You look down at your
+    watch."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20304,8 +20302,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: You dust yourself off as he looks you over.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20331,8 +20329,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He offers you a hand and helps you to your feet.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20359,7 +20357,7 @@ MonoBehaviour:
   storyText: "Sorry. I wasn\u2019t watching where I was going."
   description: 
   character: {fileID: 108884818}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20534,8 +20532,8 @@ MonoBehaviour:
   storyText: "You don\u2019t know much about the plants here but the diagrams on
     the papers look odd."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20562,8 +20560,8 @@ MonoBehaviour:
   storyText: He catches you staring and hands the paper to you to look at better
     while he collects the other ones.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20589,8 +20587,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You look over his shoulder. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20617,8 +20615,8 @@ MonoBehaviour:
   storyText: 'He picks up at wet paper from the dewy grass and looks over the bleeding
     ink with a frown. '
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20671,8 +20669,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Wolfgang looks up from his papers.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21042,8 +21040,8 @@ MonoBehaviour:
   storyText: "You don\u2019t know much about the plants here but the diagrams on
     the papers look odd. "
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21097,8 +21095,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: He catches you staring at the papers.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21125,8 +21123,8 @@ MonoBehaviour:
   storyText: When you bring them back, Wolfgang smiles at you and adds them to the
     growing stack. It has to be at least forty to fifty pages.
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21153,8 +21151,8 @@ MonoBehaviour:
   storyText: "The paper looks scientific in nature. Something about plants? You can\u2019t
     really make heads or tails of what exactly you\u2019re reading. "
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21181,8 +21179,8 @@ MonoBehaviour:
   storyText: "You grab a handful of papers on the other side of the lawn. The grass
     is starting to make the ink bleed but they\u2019re still legible."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22634,7 +22632,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1683.0587
-    y: 822.8036
+    y: 821.6335
     width: 139.34
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -28975,8 +28973,8 @@ MonoBehaviour:
   storyText: "The paper looks scientific in nature. Something about plants? You can\u2019t
     really make heads or tails of what exactly you\u2019re reading."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 17041313}
+  portrait: {fileID: 21300000, guid: cd0c6041fee8546c6860501358faef57, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29222,8 +29220,8 @@ MonoBehaviour:
   storyText: "She\u2019s right. The movers should be there any minute now if they\u2019re
     not there already."
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29276,8 +29274,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Maybe she\u2019s waiting for her shift to end?"
   description: 
-  character: {fileID: 1780337989}
-  portrait: {fileID: 0}
+  character: {fileID: 722342968}
+  portrait: {fileID: 21300000, guid: b274629eaa5f24498971c77c86433700, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
