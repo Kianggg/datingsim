@@ -13,6 +13,9 @@
 		<relationship name="timeline">
 			<destination>{366e4aa1-cb25-4ac1-a630-f63497219f52}</destination>
 		</relationship>
+		<relationship name="sandboxParameters">
+			<destination>{f7ba5f8b-2576-4254-896a-2d66425def72}</destination>
+		</relationship>
 		<relationship name="emitters">
 			<destination>{0a35c95e-be05-42d0-a989-20c67b52a5bd}</destination>
 			<destination>{053aabc5-f1a2-4999-83a4-279c9bb18fd9}</destination>
@@ -27,6 +30,14 @@
 	</object>
 	<object class="MarkerTrack" id="{c35c880c-ac95-489a-9b06-7f84ff80cef7}" />
 	<object class="Timeline" id="{366e4aa1-cb25-4ac1-a630-f63497219f52}" />
+	<object class="SandboxParameter" id="{f7ba5f8b-2576-4254-896a-2d66425def72}">
+		<property name="parameterValue">
+			<value>0.504999995</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{e6932703-bd55-41df-87c8-478028011f84}</destination>
+		</relationship>
+	</object>
 	<object class="SandboxEmitter" id="{0a35c95e-be05-42d0-a989-20c67b52a5bd}">
 		<property name="positionX">
 			<value>0.0499999896</value>
@@ -146,7 +157,7 @@
 	</object>
 	<object class="SandboxParameter" id="{6525d4ad-ba1e-4ce9-95fd-da65d2ee4759}">
 		<property name="parameterValue">
-			<value>0.474999994</value>
+			<value>0.394999981</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{e6932703-bd55-41df-87c8-478028011f84}</destination>

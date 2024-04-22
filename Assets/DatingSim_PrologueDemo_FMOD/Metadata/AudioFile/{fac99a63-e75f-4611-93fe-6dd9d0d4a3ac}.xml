@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fac99a63-e75f-4611-93fe-6dd9d0d4a3ac}">
+		<property name="assetPath">
+			<value>DatingSim_Music_Arrival_VLA.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>10.285729166666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16fcce0-05ff-4de6-96cf-46025d04e881}</destination>
+		</relationship>
+	</object>
+</objects>
